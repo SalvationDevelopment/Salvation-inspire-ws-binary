@@ -1,0 +1,791 @@
+Sun Oct 25 00:36:57 2015: Unable to open config file conf/inspircd.conf
+Sun Oct 25 00:42:44 2015: WARNING: <dns:server> not defined, attempting to find a working server in the system settings...
+Sun Oct 25 00:42:44 2015: <dns:server> set to '8.8.8.8' as first active resolver in the system settings.
+Sun Oct 25 00:42:44 2015: Module file could not be found: m_md5.so
+Sun Oct 25 00:42:44 2015: Module file could not be found: m_md5.so
+Sun Oct 25 00:45:01 2015: WARNING: <dns:server> not defined, attempting to find a working server in the system settings...
+Sun Oct 25 00:45:01 2015: <dns:server> set to '8.8.8.8' as first active resolver in the system settings.
+Sun Oct 25 00:45:01 2015: New module introduced: cmd_admin.so (Module version 2.0.20 r0)
+Sun Oct 25 00:45:01 2015: New module introduced: cmd_away.so (Module version 2.0.20 r0)
+Sun Oct 25 00:45:01 2015: New module introduced: cmd_clearcache.so (Module version 2.0.20 r0)
+Sun Oct 25 00:45:01 2015: New module introduced: cmd_commands.so (Module version 2.0.20 r0)
+Sun Oct 25 00:45:01 2015: New module introduced: cmd_connect.so (Module version 2.0.20 r0)
+Sun Oct 25 00:45:01 2015: New module introduced: cmd_die.so (Module version 2.0.20 r0)
+Sun Oct 25 00:45:01 2015: New module introduced: cmd_eline.so (Module version 2.0.20 r0)
+Sun Oct 25 00:45:01 2015: New module introduced: cmd_gline.so (Module version 2.0.20 r0)
+Sun Oct 25 00:45:01 2015: New module introduced: cmd_info.so (Module version 2.0.20 r0)
+Sun Oct 25 00:45:01 2015: New module introduced: cmd_invite.so (Module version 2.0.20 r0)
+Sun Oct 25 00:45:01 2015: New module introduced: cmd_ison.so (Module version 2.0.20 r0)
+Sun Oct 25 00:45:01 2015: New module introduced: cmd_join.so (Module version 2.0.20 r0)
+Sun Oct 25 00:45:01 2015: New module introduced: cmd_kick.so (Module version 2.0.20 r0)
+Sun Oct 25 00:45:01 2015: New module introduced: cmd_kill.so (Module version 2.0.20 r0)
+Sun Oct 25 00:45:01 2015: New module introduced: cmd_kline.so (Module version 2.0.20 r0)
+Sun Oct 25 00:45:01 2015: New module introduced: cmd_links.so (Module version 2.0.20 r0)
+Sun Oct 25 00:45:01 2015: New module introduced: cmd_list.so (Module version 2.0.20 r0)
+Sun Oct 25 00:45:01 2015: New module introduced: cmd_loadmodule.so (Module version 2.0.20 r0)
+Sun Oct 25 00:45:01 2015: New module introduced: cmd_lusers.so (Module version 2.0.20 r0)
+Sun Oct 25 00:45:01 2015: New module introduced: cmd_map.so (Module version 2.0.20 r0)
+Sun Oct 25 00:45:01 2015: New module introduced: cmd_mode.so (Module version 2.0.20 r0)
+Sun Oct 25 00:45:01 2015: New module introduced: cmd_modenotice.so (Module version 2.0.20 r0)
+Sun Oct 25 00:45:01 2015: New module introduced: cmd_modules.so (Module version 2.0.20 r0)
+Sun Oct 25 00:45:01 2015: New module introduced: cmd_motd.so (Module version 2.0.20 r0)
+Sun Oct 25 00:45:01 2015: New module introduced: cmd_names.so (Module version 2.0.20 r0)
+Sun Oct 25 00:45:01 2015: New module introduced: cmd_nick.so (Module version 2.0.20 r0)
+Sun Oct 25 00:45:01 2015: New module introduced: cmd_notice.so (Module version 2.0.20 r0)
+Sun Oct 25 00:45:01 2015: New module introduced: cmd_oper.so (Module version 2.0.20 r0)
+Sun Oct 25 00:45:01 2015: New module introduced: cmd_part.so (Module version 2.0.20 r0)
+Sun Oct 25 00:45:01 2015: New module introduced: cmd_pass.so (Module version 2.0.20 r0)
+Sun Oct 25 00:45:01 2015: New module introduced: cmd_ping.so (Module version 2.0.20 r0)
+Sun Oct 25 00:45:01 2015: New module introduced: cmd_pong.so (Module version 2.0.20 r0)
+Sun Oct 25 00:45:01 2015: New module introduced: cmd_privmsg.so (Module version 2.0.20 r0)
+Sun Oct 25 00:45:01 2015: New module introduced: cmd_qline.so (Module version 2.0.20 r0)
+Sun Oct 25 00:45:01 2015: New module introduced: cmd_quit.so (Module version 2.0.20 r0)
+Sun Oct 25 00:45:01 2015: New module introduced: cmd_rehash.so (Module version 2.0.20 r0)
+Sun Oct 25 00:45:01 2015: New module introduced: cmd_reloadmodule.so (Module version 2.0.20 r0)
+Sun Oct 25 00:45:01 2015: New module introduced: cmd_restart.so (Module version 2.0.20 r0)
+Sun Oct 25 00:45:01 2015: New module introduced: cmd_rules.so (Module version 2.0.20 r0)
+Sun Oct 25 00:45:01 2015: New module introduced: cmd_server.so (Module version 2.0.20 r0)
+Sun Oct 25 00:45:01 2015: New module introduced: cmd_squit.so (Module version 2.0.20 r0)
+Sun Oct 25 00:45:01 2015: New module introduced: cmd_stats.so (Module version 2.0.20 r0)
+Sun Oct 25 00:45:01 2015: New module introduced: cmd_time.so (Module version 2.0.20 r0)
+Sun Oct 25 00:45:01 2015: New module introduced: cmd_topic.so (Module version 2.0.20 r0)
+Sun Oct 25 00:45:01 2015: New module introduced: cmd_unloadmodule.so (Module version 2.0.20 r0)
+Sun Oct 25 00:45:01 2015: New module introduced: cmd_user.so (Module version 2.0.20 r0)
+Sun Oct 25 00:45:01 2015: New module introduced: cmd_userhost.so (Module version 2.0.20 r0)
+Sun Oct 25 00:45:01 2015: New module introduced: cmd_version.so (Module version 2.0.20 r0)
+Sun Oct 25 00:45:01 2015: New module introduced: cmd_wallops.so (Module version 2.0.20 r0)
+Sun Oct 25 00:45:01 2015: New module introduced: cmd_who.so (Module version 2.0.20 r0)
+Sun Oct 25 00:45:01 2015: New module introduced: cmd_whois.so (Module version 2.0.20 r0)
+Sun Oct 25 00:45:01 2015: New module introduced: cmd_whowas.so (Module version 2.0.20 r0)
+Sun Oct 25 00:45:01 2015: New module introduced: cmd_zline.so (Module version 2.0.20 r0)
+Sun Oct 25 00:45:01 2015: New module introduced: m_md5.so (Module version 2.0.20 r0)
+Sun Oct 25 00:45:01 2015: New module introduced: m_sha256.so (Module version 2.0.20 r0)
+Sun Oct 25 00:45:01 2015: New module introduced: m_alias.so (Module version 2.0.20 r0)
+Sun Oct 25 00:45:01 2015: New module introduced: m_allowinvite.so (Module version 2.0.20 r0)
+Sun Oct 25 00:45:01 2015: New module introduced: m_alltime.so (Module version 2.0.20 r0)
+Sun Oct 25 00:45:01 2015: New module introduced: m_auditorium.so (Module version 2.0.20 r0)
+Sun Oct 25 00:45:01 2015: New module introduced: m_banexception.so (Module version 2.0.20 r0)
+Sun Oct 25 00:45:01 2015: New module introduced: m_blockcaps.so (Module version 2.0.20 r0)
+Sun Oct 25 00:45:01 2015: New module introduced: m_blockcolor.so (Module version 2.0.20 r0)
+Sun Oct 25 00:45:01 2015: New module introduced: m_botmode.so (Module version 2.0.20 r0)
+Sun Oct 25 00:45:01 2015: New module introduced: m_censor.so (Module version 2.0.20 r0)
+Sun Oct 25 00:45:01 2015: New module introduced: m_chanfilter.so (Module version 2.0.20 r0)
+Sun Oct 25 00:45:01 2015: New module introduced: m_check.so (Module version 2.0.20 r0)
+Sun Oct 25 00:45:01 2015: New module introduced: m_chghost.so (Module version 2.0.20 r0)
+Sun Oct 25 00:45:01 2015: New module introduced: m_chgident.so (Module version 2.0.20 r0)
+Sun Oct 25 00:45:01 2015: New module introduced: m_chgname.so (Module version 2.0.20 r0)
+Sun Oct 25 00:45:01 2015: New module introduced: m_close.so (Module version 2.0.20 r0)
+Sun Oct 25 00:45:01 2015: New module introduced: m_clones.so (Module version 2.0.20 r0)
+Sun Oct 25 00:45:01 2015: New module introduced: m_commonchans.so (Module version 2.0.20 r0)
+Sun Oct 25 00:45:01 2015: New module introduced: m_conn_umodes.so (Module version 2.0.20 r0)
+Sun Oct 25 00:45:01 2015: New module introduced: m_cycle.so (Module version 2.0.20 r0)
+Sun Oct 25 00:45:01 2015: New module introduced: m_dccallow.so (Module version 2.0.20 r0)
+Sun Oct 25 00:45:01 2015: New module introduced: m_deaf.so (Module version 2.0.20 r0)
+Sun Oct 25 00:45:01 2015: New module introduced: m_denychans.so (Module version 2.0.20 r0)
+Sun Oct 25 00:45:01 2015: New module introduced: m_devoice.so (Module version 2.0.20 r0)
+Sun Oct 25 00:45:01 2015: New module introduced: m_filter.so (Module version 2.0.20 r0)
+Sun Oct 25 00:45:01 2015: New module introduced: m_gecosban.so (Module version 2.0.20 r0)
+Sun Oct 25 00:45:01 2015: New module introduced: m_globops.so (Module version 2.0.20 r0)
+Sun Oct 25 00:45:01 2015: New module introduced: m_globalload.so (Module version 2.0.20 r0)
+Sun Oct 25 00:45:01 2015: New module introduced: m_helpop.so (Module version 2.0.20 r0)
+Sun Oct 25 00:45:01 2015: New module introduced: m_hidechans.so (Module version 2.0.20 r0)
+Sun Oct 25 00:45:01 2015: New module introduced: m_hideoper.so (Module version 2.0.20 r0)
+Sun Oct 25 00:45:01 2015: New module introduced: m_ident.so (Module version 2.0.20 r0)
+Sun Oct 25 00:45:01 2015: New module introduced: m_inviteexception.so (Module version 2.0.20 r0)
+Sun Oct 25 00:45:01 2015: New module introduced: m_joinflood.so (Module version 2.0.20 r0)
+Sun Oct 25 00:45:01 2015: New module introduced: m_jumpserver.so (Module version 2.0.20 r0)
+Sun Oct 25 00:45:01 2015: New module introduced: m_knock.so (Module version 2.0.20 r0)
+Sun Oct 25 00:45:01 2015: New module introduced: m_messageflood.so (Module version 2.0.20 r0)
+Sun Oct 25 00:45:01 2015: New module introduced: m_namesx.so (Module version 2.0.20 r0)
+Sun Oct 25 00:45:01 2015: New module introduced: m_nickflood.so (Module version 2.0.20 r0)
+Sun Oct 25 00:45:01 2015: New module introduced: m_noctcp.so (Module version 2.0.20 r0)
+Sun Oct 25 00:45:01 2015: New module introduced: m_nokicks.so (Module version 2.0.20 r0)
+Sun Oct 25 00:45:01 2015: New module introduced: m_nonicks.so (Module version 2.0.20 r0)
+Sun Oct 25 00:45:01 2015: New module introduced: m_nopartmsg.so (Module version 2.0.20 r0)
+Sun Oct 25 00:45:01 2015: New module introduced: m_nonotice.so (Module version 2.0.20 r0)
+Sun Oct 25 00:45:01 2015: New module introduced: m_operchans.so (Module version 2.0.20 r0)
+Sun Oct 25 00:45:01 2015: New module introduced: m_operjoin.so (Module version 2.0.20 r0)
+Sun Oct 25 00:45:01 2015: New module introduced: m_operlog.so (Module version 2.0.20 r0)
+Sun Oct 25 00:45:01 2015: New module introduced: m_override.so (Module version 2.0.20 r0)
+Sun Oct 25 00:45:01 2015: New module introduced: m_operlevels.so (Module version 2.0.20 r0)
+Sun Oct 25 00:45:01 2015: New module introduced: m_opermodes.so (Module version 2.0.20 r0)
+Sun Oct 25 00:45:01 2015: New module introduced: m_password_hash.so (Module version 2.0.20 r0)
+Sun Oct 25 00:45:01 2015: New module introduced: m_muteban.so (Module version 2.0.20 r0)
+Sun Oct 25 00:45:01 2015: New module introduced: m_redirect.so (Module version 2.0.20 r0)
+Sun Oct 25 00:45:01 2015: New module introduced: m_regex_glob.so (Module version 2.0.20 r0)
+Sun Oct 25 00:45:01 2015: New module introduced: m_sajoin.so (Module version 2.0.20 r0)
+Sun Oct 25 00:45:01 2015: New module introduced: m_sakick.so (Module version 2.0.20 r0)
+Sun Oct 25 00:45:01 2015: New module introduced: m_samode.so (Module version 2.0.20 r0)
+Sun Oct 25 00:45:01 2015: New module introduced: m_sanick.so (Module version 2.0.20 r0)
+Sun Oct 25 00:45:01 2015: New module introduced: m_sapart.so (Module version 2.0.20 r0)
+Sun Oct 25 00:45:01 2015: New module introduced: m_saquit.so (Module version 2.0.20 r0)
+Sun Oct 25 00:45:01 2015: New module introduced: m_satopic.so (Module version 2.0.20 r0)
+Sun Oct 25 00:45:01 2015: New module introduced: m_servprotect.so (Module version 2.0.20 r0)
+Sun Oct 25 00:45:01 2015: New module introduced: m_seenicks.so (Module version 2.0.20 r0)
+Sun Oct 25 00:45:01 2015: New module introduced: m_setidle.so (Module version 2.0.20 r0)
+Sun Oct 25 00:45:01 2015: New module introduced: m_services_account.so (Module version 2.0.20 r0)
+Sun Oct 25 00:45:01 2015: New module introduced: m_sethost.so (Module version 2.0.20 r0)
+Sun Oct 25 00:45:01 2015: New module introduced: m_setident.so (Module version 2.0.20 r0)
+Sun Oct 25 00:45:01 2015: New module introduced: m_setname.so (Module version 2.0.20 r0)
+Sun Oct 25 00:45:01 2015: New module introduced: m_showwhois.so (Module version 2.0.20 r0)
+Sun Oct 25 00:45:01 2015: New module introduced: m_shun.so (Module version 2.0.20 r0)
+Sun Oct 25 00:45:01 2015: New module introduced: m_sslmodes.so (Module version 2.0.20 r0)
+Sun Oct 25 00:45:01 2015: New module introduced: m_sslinfo.so (Module version 2.0.20 r0)
+Sun Oct 25 00:45:01 2015: New module introduced: m_stripcolor.so (Module version 2.0.20 r0)
+Sun Oct 25 00:45:01 2015: New module introduced: m_svshold.so (Module version 2.0.20 r0)
+Sun Oct 25 00:45:01 2015: New module introduced: m_swhois.so (Module version 2.0.20 r0)
+Sun Oct 25 00:45:01 2015: New module introduced: m_tline.so (Module version 2.0.20 r0)
+Sun Oct 25 00:45:01 2015: New module introduced: m_uhnames.so (Module version 2.0.20 r0)
+Sun Oct 25 00:45:01 2015: New module introduced: m_userip.so (Module version 2.0.20 r0)
+Sun Oct 25 00:45:01 2015: New module introduced: m_watch.so (Module version 2.0.20 r0)
+Sun Oct 25 00:45:01 2015: New module introduced: m_spanningtree.so (Module version 2.0.20 r0)
+Sun Oct 25 00:45:01 2015: New module introduced: m_timedbans.so (Module version 2.0.20 r0)
+Sun Oct 25 00:45:01 2015: New module introduced: m_customprefix.so (Module version 2.0.20 r0)
+Sun Oct 25 00:45:01 2015: New module introduced: m_cloaking.so (Module version 2.0.20 r0)
+Sun Oct 25 00:45:01 2015: Startup complete as 'salvationdevelopment.com'[794], 24000 max open sockets
+Sun Oct 25 00:48:58 2015: WARNING: <dns:server> not defined, attempting to find a working server in the system settings...
+Sun Oct 25 00:48:58 2015: <dns:server> set to '8.8.8.8' as first active resolver in the system settings.
+Sun Oct 25 00:48:58 2015: New module introduced: cmd_admin.so (Module version 2.0.20 r0)
+Sun Oct 25 00:48:58 2015: New module introduced: cmd_away.so (Module version 2.0.20 r0)
+Sun Oct 25 00:48:58 2015: New module introduced: cmd_clearcache.so (Module version 2.0.20 r0)
+Sun Oct 25 00:48:58 2015: New module introduced: cmd_commands.so (Module version 2.0.20 r0)
+Sun Oct 25 00:48:58 2015: New module introduced: cmd_connect.so (Module version 2.0.20 r0)
+Sun Oct 25 00:48:58 2015: New module introduced: cmd_die.so (Module version 2.0.20 r0)
+Sun Oct 25 00:48:58 2015: New module introduced: cmd_eline.so (Module version 2.0.20 r0)
+Sun Oct 25 00:48:58 2015: New module introduced: cmd_gline.so (Module version 2.0.20 r0)
+Sun Oct 25 00:48:58 2015: New module introduced: cmd_info.so (Module version 2.0.20 r0)
+Sun Oct 25 00:48:58 2015: New module introduced: cmd_invite.so (Module version 2.0.20 r0)
+Sun Oct 25 00:48:58 2015: New module introduced: cmd_ison.so (Module version 2.0.20 r0)
+Sun Oct 25 00:48:58 2015: New module introduced: cmd_join.so (Module version 2.0.20 r0)
+Sun Oct 25 00:48:58 2015: New module introduced: cmd_kick.so (Module version 2.0.20 r0)
+Sun Oct 25 00:48:58 2015: New module introduced: cmd_kill.so (Module version 2.0.20 r0)
+Sun Oct 25 00:48:58 2015: New module introduced: cmd_kline.so (Module version 2.0.20 r0)
+Sun Oct 25 00:48:58 2015: New module introduced: cmd_links.so (Module version 2.0.20 r0)
+Sun Oct 25 00:48:58 2015: New module introduced: cmd_list.so (Module version 2.0.20 r0)
+Sun Oct 25 00:48:58 2015: New module introduced: cmd_loadmodule.so (Module version 2.0.20 r0)
+Sun Oct 25 00:48:58 2015: New module introduced: cmd_lusers.so (Module version 2.0.20 r0)
+Sun Oct 25 00:48:58 2015: New module introduced: cmd_map.so (Module version 2.0.20 r0)
+Sun Oct 25 00:48:58 2015: New module introduced: cmd_mode.so (Module version 2.0.20 r0)
+Sun Oct 25 00:48:58 2015: New module introduced: cmd_modenotice.so (Module version 2.0.20 r0)
+Sun Oct 25 00:48:58 2015: New module introduced: cmd_modules.so (Module version 2.0.20 r0)
+Sun Oct 25 00:48:58 2015: New module introduced: cmd_motd.so (Module version 2.0.20 r0)
+Sun Oct 25 00:48:58 2015: New module introduced: cmd_names.so (Module version 2.0.20 r0)
+Sun Oct 25 00:48:58 2015: New module introduced: cmd_nick.so (Module version 2.0.20 r0)
+Sun Oct 25 00:48:58 2015: New module introduced: cmd_notice.so (Module version 2.0.20 r0)
+Sun Oct 25 00:48:58 2015: New module introduced: cmd_oper.so (Module version 2.0.20 r0)
+Sun Oct 25 00:48:58 2015: New module introduced: cmd_part.so (Module version 2.0.20 r0)
+Sun Oct 25 00:48:58 2015: New module introduced: cmd_pass.so (Module version 2.0.20 r0)
+Sun Oct 25 00:48:58 2015: New module introduced: cmd_ping.so (Module version 2.0.20 r0)
+Sun Oct 25 00:48:58 2015: New module introduced: cmd_pong.so (Module version 2.0.20 r0)
+Sun Oct 25 00:48:58 2015: New module introduced: cmd_privmsg.so (Module version 2.0.20 r0)
+Sun Oct 25 00:48:58 2015: New module introduced: cmd_qline.so (Module version 2.0.20 r0)
+Sun Oct 25 00:48:58 2015: New module introduced: cmd_quit.so (Module version 2.0.20 r0)
+Sun Oct 25 00:48:58 2015: New module introduced: cmd_rehash.so (Module version 2.0.20 r0)
+Sun Oct 25 00:48:58 2015: New module introduced: cmd_reloadmodule.so (Module version 2.0.20 r0)
+Sun Oct 25 00:48:58 2015: New module introduced: cmd_restart.so (Module version 2.0.20 r0)
+Sun Oct 25 00:48:58 2015: New module introduced: cmd_rules.so (Module version 2.0.20 r0)
+Sun Oct 25 00:48:58 2015: New module introduced: cmd_server.so (Module version 2.0.20 r0)
+Sun Oct 25 00:48:58 2015: New module introduced: cmd_squit.so (Module version 2.0.20 r0)
+Sun Oct 25 00:48:58 2015: New module introduced: cmd_stats.so (Module version 2.0.20 r0)
+Sun Oct 25 00:48:58 2015: New module introduced: cmd_time.so (Module version 2.0.20 r0)
+Sun Oct 25 00:48:58 2015: New module introduced: cmd_topic.so (Module version 2.0.20 r0)
+Sun Oct 25 00:48:58 2015: New module introduced: cmd_unloadmodule.so (Module version 2.0.20 r0)
+Sun Oct 25 00:48:58 2015: New module introduced: cmd_user.so (Module version 2.0.20 r0)
+Sun Oct 25 00:48:58 2015: New module introduced: cmd_userhost.so (Module version 2.0.20 r0)
+Sun Oct 25 00:48:58 2015: New module introduced: cmd_version.so (Module version 2.0.20 r0)
+Sun Oct 25 00:48:58 2015: New module introduced: cmd_wallops.so (Module version 2.0.20 r0)
+Sun Oct 25 00:48:58 2015: New module introduced: cmd_who.so (Module version 2.0.20 r0)
+Sun Oct 25 00:48:58 2015: New module introduced: cmd_whois.so (Module version 2.0.20 r0)
+Sun Oct 25 00:48:58 2015: New module introduced: cmd_whowas.so (Module version 2.0.20 r0)
+Sun Oct 25 00:48:58 2015: New module introduced: cmd_zline.so (Module version 2.0.20 r0)
+Sun Oct 25 00:48:58 2015: New module introduced: m_md5.so (Module version 2.0.20 r0)
+Sun Oct 25 00:48:58 2015: New module introduced: m_sha256.so (Module version 2.0.20 r0)
+Sun Oct 25 00:48:58 2015: New module introduced: m_alias.so (Module version 2.0.20 r0)
+Sun Oct 25 00:48:58 2015: New module introduced: m_allowinvite.so (Module version 2.0.20 r0)
+Sun Oct 25 00:48:58 2015: New module introduced: m_alltime.so (Module version 2.0.20 r0)
+Sun Oct 25 00:48:58 2015: New module introduced: m_auditorium.so (Module version 2.0.20 r0)
+Sun Oct 25 00:48:58 2015: New module introduced: m_banexception.so (Module version 2.0.20 r0)
+Sun Oct 25 00:48:58 2015: New module introduced: m_blockcaps.so (Module version 2.0.20 r0)
+Sun Oct 25 00:48:58 2015: New module introduced: m_blockcolor.so (Module version 2.0.20 r0)
+Sun Oct 25 00:48:58 2015: New module introduced: m_botmode.so (Module version 2.0.20 r0)
+Sun Oct 25 00:48:58 2015: New module introduced: m_censor.so (Module version 2.0.20 r0)
+Sun Oct 25 00:48:58 2015: New module introduced: m_chanfilter.so (Module version 2.0.20 r0)
+Sun Oct 25 00:48:58 2015: New module introduced: m_check.so (Module version 2.0.20 r0)
+Sun Oct 25 00:48:58 2015: New module introduced: m_chghost.so (Module version 2.0.20 r0)
+Sun Oct 25 00:48:58 2015: New module introduced: m_chgident.so (Module version 2.0.20 r0)
+Sun Oct 25 00:48:58 2015: New module introduced: m_chgname.so (Module version 2.0.20 r0)
+Sun Oct 25 00:48:58 2015: New module introduced: m_close.so (Module version 2.0.20 r0)
+Sun Oct 25 00:48:58 2015: New module introduced: m_clones.so (Module version 2.0.20 r0)
+Sun Oct 25 00:48:58 2015: New module introduced: m_commonchans.so (Module version 2.0.20 r0)
+Sun Oct 25 00:48:58 2015: New module introduced: m_conn_umodes.so (Module version 2.0.20 r0)
+Sun Oct 25 00:48:58 2015: New module introduced: m_cycle.so (Module version 2.0.20 r0)
+Sun Oct 25 00:48:58 2015: New module introduced: m_dccallow.so (Module version 2.0.20 r0)
+Sun Oct 25 00:48:58 2015: New module introduced: m_deaf.so (Module version 2.0.20 r0)
+Sun Oct 25 00:48:58 2015: New module introduced: m_denychans.so (Module version 2.0.20 r0)
+Sun Oct 25 00:48:58 2015: New module introduced: m_devoice.so (Module version 2.0.20 r0)
+Sun Oct 25 00:48:58 2015: New module introduced: m_filter.so (Module version 2.0.20 r0)
+Sun Oct 25 00:48:58 2015: New module introduced: m_gecosban.so (Module version 2.0.20 r0)
+Sun Oct 25 00:48:58 2015: New module introduced: m_globops.so (Module version 2.0.20 r0)
+Sun Oct 25 00:48:58 2015: New module introduced: m_globalload.so (Module version 2.0.20 r0)
+Sun Oct 25 00:48:58 2015: New module introduced: m_helpop.so (Module version 2.0.20 r0)
+Sun Oct 25 00:48:58 2015: New module introduced: m_hidechans.so (Module version 2.0.20 r0)
+Sun Oct 25 00:48:58 2015: New module introduced: m_hideoper.so (Module version 2.0.20 r0)
+Sun Oct 25 00:48:58 2015: New module introduced: m_ident.so (Module version 2.0.20 r0)
+Sun Oct 25 00:48:58 2015: New module introduced: m_inviteexception.so (Module version 2.0.20 r0)
+Sun Oct 25 00:48:58 2015: New module introduced: m_joinflood.so (Module version 2.0.20 r0)
+Sun Oct 25 00:48:58 2015: New module introduced: m_jumpserver.so (Module version 2.0.20 r0)
+Sun Oct 25 00:48:58 2015: New module introduced: m_knock.so (Module version 2.0.20 r0)
+Sun Oct 25 00:48:58 2015: New module introduced: m_messageflood.so (Module version 2.0.20 r0)
+Sun Oct 25 00:48:58 2015: New module introduced: m_namesx.so (Module version 2.0.20 r0)
+Sun Oct 25 00:48:58 2015: New module introduced: m_nickflood.so (Module version 2.0.20 r0)
+Sun Oct 25 00:48:58 2015: New module introduced: m_noctcp.so (Module version 2.0.20 r0)
+Sun Oct 25 00:48:58 2015: New module introduced: m_nokicks.so (Module version 2.0.20 r0)
+Sun Oct 25 00:48:58 2015: New module introduced: m_nonicks.so (Module version 2.0.20 r0)
+Sun Oct 25 00:48:58 2015: New module introduced: m_nopartmsg.so (Module version 2.0.20 r0)
+Sun Oct 25 00:48:58 2015: New module introduced: m_nonotice.so (Module version 2.0.20 r0)
+Sun Oct 25 00:48:58 2015: New module introduced: m_operchans.so (Module version 2.0.20 r0)
+Sun Oct 25 00:48:58 2015: New module introduced: m_operjoin.so (Module version 2.0.20 r0)
+Sun Oct 25 00:48:58 2015: New module introduced: m_operlog.so (Module version 2.0.20 r0)
+Sun Oct 25 00:48:58 2015: New module introduced: m_override.so (Module version 2.0.20 r0)
+Sun Oct 25 00:48:58 2015: New module introduced: m_operlevels.so (Module version 2.0.20 r0)
+Sun Oct 25 00:48:58 2015: New module introduced: m_opermodes.so (Module version 2.0.20 r0)
+Sun Oct 25 00:48:58 2015: New module introduced: m_password_hash.so (Module version 2.0.20 r0)
+Sun Oct 25 00:48:58 2015: New module introduced: m_muteban.so (Module version 2.0.20 r0)
+Sun Oct 25 00:48:58 2015: New module introduced: m_redirect.so (Module version 2.0.20 r0)
+Sun Oct 25 00:48:58 2015: New module introduced: m_regex_glob.so (Module version 2.0.20 r0)
+Sun Oct 25 00:48:58 2015: New module introduced: m_sajoin.so (Module version 2.0.20 r0)
+Sun Oct 25 00:48:58 2015: New module introduced: m_sakick.so (Module version 2.0.20 r0)
+Sun Oct 25 00:48:58 2015: New module introduced: m_samode.so (Module version 2.0.20 r0)
+Sun Oct 25 00:48:58 2015: New module introduced: m_sanick.so (Module version 2.0.20 r0)
+Sun Oct 25 00:48:58 2015: New module introduced: m_sapart.so (Module version 2.0.20 r0)
+Sun Oct 25 00:48:58 2015: New module introduced: m_saquit.so (Module version 2.0.20 r0)
+Sun Oct 25 00:48:58 2015: New module introduced: m_satopic.so (Module version 2.0.20 r0)
+Sun Oct 25 00:48:58 2015: New module introduced: m_servprotect.so (Module version 2.0.20 r0)
+Sun Oct 25 00:48:58 2015: New module introduced: m_seenicks.so (Module version 2.0.20 r0)
+Sun Oct 25 00:48:58 2015: New module introduced: m_setidle.so (Module version 2.0.20 r0)
+Sun Oct 25 00:48:58 2015: New module introduced: m_services_account.so (Module version 2.0.20 r0)
+Sun Oct 25 00:48:58 2015: New module introduced: m_sethost.so (Module version 2.0.20 r0)
+Sun Oct 25 00:48:58 2015: New module introduced: m_setident.so (Module version 2.0.20 r0)
+Sun Oct 25 00:48:58 2015: New module introduced: m_setname.so (Module version 2.0.20 r0)
+Sun Oct 25 00:48:58 2015: New module introduced: m_showwhois.so (Module version 2.0.20 r0)
+Sun Oct 25 00:48:58 2015: New module introduced: m_shun.so (Module version 2.0.20 r0)
+Sun Oct 25 00:48:58 2015: New module introduced: m_sslmodes.so (Module version 2.0.20 r0)
+Sun Oct 25 00:48:58 2015: New module introduced: m_sslinfo.so (Module version 2.0.20 r0)
+Sun Oct 25 00:48:58 2015: New module introduced: m_stripcolor.so (Module version 2.0.20 r0)
+Sun Oct 25 00:48:58 2015: New module introduced: m_svshold.so (Module version 2.0.20 r0)
+Sun Oct 25 00:48:58 2015: New module introduced: m_swhois.so (Module version 2.0.20 r0)
+Sun Oct 25 00:48:58 2015: New module introduced: m_tline.so (Module version 2.0.20 r0)
+Sun Oct 25 00:48:58 2015: New module introduced: m_uhnames.so (Module version 2.0.20 r0)
+Sun Oct 25 00:48:58 2015: New module introduced: m_userip.so (Module version 2.0.20 r0)
+Sun Oct 25 00:48:58 2015: New module introduced: m_watch.so (Module version 2.0.20 r0)
+Sun Oct 25 00:48:58 2015: New module introduced: m_spanningtree.so (Module version 2.0.20 r0)
+Sun Oct 25 00:48:58 2015: New module introduced: m_timedbans.so (Module version 2.0.20 r0)
+Sun Oct 25 00:48:58 2015: New module introduced: m_customprefix.so (Module version 2.0.20 r0)
+Sun Oct 25 00:48:58 2015: New module introduced: m_cloaking.so (Module version 2.0.20 r0)
+Sun Oct 25 00:48:58 2015: Startup complete as 'salvationdevelopment.com'[794], 24000 max open sockets
+Sun Oct 25 00:49:55 2015: WARNING: <dns:server> not defined, attempting to find a working server in the system settings...
+Sun Oct 25 00:49:55 2015: <dns:server> set to '8.8.8.8' as first active resolver in the system settings.
+Sun Oct 25 00:49:55 2015: New module introduced: cmd_admin.so (Module version 2.0.20 r0)
+Sun Oct 25 00:49:55 2015: New module introduced: cmd_away.so (Module version 2.0.20 r0)
+Sun Oct 25 00:49:55 2015: New module introduced: cmd_clearcache.so (Module version 2.0.20 r0)
+Sun Oct 25 00:49:55 2015: New module introduced: cmd_commands.so (Module version 2.0.20 r0)
+Sun Oct 25 00:49:55 2015: New module introduced: cmd_connect.so (Module version 2.0.20 r0)
+Sun Oct 25 00:49:55 2015: New module introduced: cmd_die.so (Module version 2.0.20 r0)
+Sun Oct 25 00:49:55 2015: New module introduced: cmd_eline.so (Module version 2.0.20 r0)
+Sun Oct 25 00:49:55 2015: New module introduced: cmd_gline.so (Module version 2.0.20 r0)
+Sun Oct 25 00:49:55 2015: New module introduced: cmd_info.so (Module version 2.0.20 r0)
+Sun Oct 25 00:49:55 2015: New module introduced: cmd_invite.so (Module version 2.0.20 r0)
+Sun Oct 25 00:49:55 2015: New module introduced: cmd_ison.so (Module version 2.0.20 r0)
+Sun Oct 25 00:49:55 2015: New module introduced: cmd_join.so (Module version 2.0.20 r0)
+Sun Oct 25 00:49:55 2015: New module introduced: cmd_kick.so (Module version 2.0.20 r0)
+Sun Oct 25 00:49:55 2015: New module introduced: cmd_kill.so (Module version 2.0.20 r0)
+Sun Oct 25 00:49:55 2015: New module introduced: cmd_kline.so (Module version 2.0.20 r0)
+Sun Oct 25 00:49:55 2015: New module introduced: cmd_links.so (Module version 2.0.20 r0)
+Sun Oct 25 00:49:55 2015: New module introduced: cmd_list.so (Module version 2.0.20 r0)
+Sun Oct 25 00:49:55 2015: New module introduced: cmd_loadmodule.so (Module version 2.0.20 r0)
+Sun Oct 25 00:49:55 2015: New module introduced: cmd_lusers.so (Module version 2.0.20 r0)
+Sun Oct 25 00:49:55 2015: New module introduced: cmd_map.so (Module version 2.0.20 r0)
+Sun Oct 25 00:49:55 2015: New module introduced: cmd_mode.so (Module version 2.0.20 r0)
+Sun Oct 25 00:49:55 2015: New module introduced: cmd_modenotice.so (Module version 2.0.20 r0)
+Sun Oct 25 00:49:55 2015: New module introduced: cmd_modules.so (Module version 2.0.20 r0)
+Sun Oct 25 00:49:55 2015: New module introduced: cmd_motd.so (Module version 2.0.20 r0)
+Sun Oct 25 00:49:55 2015: New module introduced: cmd_names.so (Module version 2.0.20 r0)
+Sun Oct 25 00:49:55 2015: New module introduced: cmd_nick.so (Module version 2.0.20 r0)
+Sun Oct 25 00:49:55 2015: New module introduced: cmd_notice.so (Module version 2.0.20 r0)
+Sun Oct 25 00:49:55 2015: New module introduced: cmd_oper.so (Module version 2.0.20 r0)
+Sun Oct 25 00:49:55 2015: New module introduced: cmd_part.so (Module version 2.0.20 r0)
+Sun Oct 25 00:49:55 2015: New module introduced: cmd_pass.so (Module version 2.0.20 r0)
+Sun Oct 25 00:49:55 2015: New module introduced: cmd_ping.so (Module version 2.0.20 r0)
+Sun Oct 25 00:49:55 2015: New module introduced: cmd_pong.so (Module version 2.0.20 r0)
+Sun Oct 25 00:49:55 2015: New module introduced: cmd_privmsg.so (Module version 2.0.20 r0)
+Sun Oct 25 00:49:55 2015: New module introduced: cmd_qline.so (Module version 2.0.20 r0)
+Sun Oct 25 00:49:55 2015: New module introduced: cmd_quit.so (Module version 2.0.20 r0)
+Sun Oct 25 00:49:55 2015: New module introduced: cmd_rehash.so (Module version 2.0.20 r0)
+Sun Oct 25 00:49:55 2015: New module introduced: cmd_reloadmodule.so (Module version 2.0.20 r0)
+Sun Oct 25 00:49:55 2015: New module introduced: cmd_restart.so (Module version 2.0.20 r0)
+Sun Oct 25 00:49:55 2015: New module introduced: cmd_rules.so (Module version 2.0.20 r0)
+Sun Oct 25 00:49:55 2015: New module introduced: cmd_server.so (Module version 2.0.20 r0)
+Sun Oct 25 00:49:55 2015: New module introduced: cmd_squit.so (Module version 2.0.20 r0)
+Sun Oct 25 00:49:55 2015: New module introduced: cmd_stats.so (Module version 2.0.20 r0)
+Sun Oct 25 00:49:55 2015: New module introduced: cmd_time.so (Module version 2.0.20 r0)
+Sun Oct 25 00:49:55 2015: New module introduced: cmd_topic.so (Module version 2.0.20 r0)
+Sun Oct 25 00:49:55 2015: New module introduced: cmd_unloadmodule.so (Module version 2.0.20 r0)
+Sun Oct 25 00:49:55 2015: New module introduced: cmd_user.so (Module version 2.0.20 r0)
+Sun Oct 25 00:49:55 2015: New module introduced: cmd_userhost.so (Module version 2.0.20 r0)
+Sun Oct 25 00:49:55 2015: New module introduced: cmd_version.so (Module version 2.0.20 r0)
+Sun Oct 25 00:49:55 2015: New module introduced: cmd_wallops.so (Module version 2.0.20 r0)
+Sun Oct 25 00:49:55 2015: New module introduced: cmd_who.so (Module version 2.0.20 r0)
+Sun Oct 25 00:49:55 2015: New module introduced: cmd_whois.so (Module version 2.0.20 r0)
+Sun Oct 25 00:49:55 2015: New module introduced: cmd_whowas.so (Module version 2.0.20 r0)
+Sun Oct 25 00:49:55 2015: New module introduced: cmd_zline.so (Module version 2.0.20 r0)
+Sun Oct 25 00:49:55 2015: New module introduced: m_md5.so (Module version 2.0.20 r0)
+Sun Oct 25 00:49:55 2015: New module introduced: m_sha256.so (Module version 2.0.20 r0)
+Sun Oct 25 00:49:55 2015: New module introduced: m_alias.so (Module version 2.0.20 r0)
+Sun Oct 25 00:49:55 2015: New module introduced: m_allowinvite.so (Module version 2.0.20 r0)
+Sun Oct 25 00:49:55 2015: New module introduced: m_alltime.so (Module version 2.0.20 r0)
+Sun Oct 25 00:49:55 2015: New module introduced: m_auditorium.so (Module version 2.0.20 r0)
+Sun Oct 25 00:49:55 2015: New module introduced: m_banexception.so (Module version 2.0.20 r0)
+Sun Oct 25 00:49:55 2015: New module introduced: m_blockcaps.so (Module version 2.0.20 r0)
+Sun Oct 25 00:49:55 2015: New module introduced: m_blockcolor.so (Module version 2.0.20 r0)
+Sun Oct 25 00:49:55 2015: New module introduced: m_botmode.so (Module version 2.0.20 r0)
+Sun Oct 25 00:49:55 2015: New module introduced: m_censor.so (Module version 2.0.20 r0)
+Sun Oct 25 00:49:55 2015: New module introduced: m_chanfilter.so (Module version 2.0.20 r0)
+Sun Oct 25 00:49:55 2015: New module introduced: m_check.so (Module version 2.0.20 r0)
+Sun Oct 25 00:49:55 2015: New module introduced: m_chghost.so (Module version 2.0.20 r0)
+Sun Oct 25 00:49:55 2015: New module introduced: m_chgident.so (Module version 2.0.20 r0)
+Sun Oct 25 00:49:55 2015: New module introduced: m_chgname.so (Module version 2.0.20 r0)
+Sun Oct 25 00:49:55 2015: New module introduced: m_close.so (Module version 2.0.20 r0)
+Sun Oct 25 00:49:55 2015: New module introduced: m_clones.so (Module version 2.0.20 r0)
+Sun Oct 25 00:49:55 2015: New module introduced: m_commonchans.so (Module version 2.0.20 r0)
+Sun Oct 25 00:49:55 2015: New module introduced: m_conn_umodes.so (Module version 2.0.20 r0)
+Sun Oct 25 00:49:55 2015: New module introduced: m_cycle.so (Module version 2.0.20 r0)
+Sun Oct 25 00:49:55 2015: New module introduced: m_dccallow.so (Module version 2.0.20 r0)
+Sun Oct 25 00:49:55 2015: New module introduced: m_deaf.so (Module version 2.0.20 r0)
+Sun Oct 25 00:49:55 2015: New module introduced: m_denychans.so (Module version 2.0.20 r0)
+Sun Oct 25 00:49:55 2015: New module introduced: m_devoice.so (Module version 2.0.20 r0)
+Sun Oct 25 00:49:55 2015: New module introduced: m_filter.so (Module version 2.0.20 r0)
+Sun Oct 25 00:49:55 2015: New module introduced: m_gecosban.so (Module version 2.0.20 r0)
+Sun Oct 25 00:49:55 2015: New module introduced: m_globops.so (Module version 2.0.20 r0)
+Sun Oct 25 00:49:55 2015: New module introduced: m_globalload.so (Module version 2.0.20 r0)
+Sun Oct 25 00:49:55 2015: New module introduced: m_helpop.so (Module version 2.0.20 r0)
+Sun Oct 25 00:49:55 2015: New module introduced: m_hidechans.so (Module version 2.0.20 r0)
+Sun Oct 25 00:49:55 2015: New module introduced: m_hideoper.so (Module version 2.0.20 r0)
+Sun Oct 25 00:49:55 2015: New module introduced: m_ident.so (Module version 2.0.20 r0)
+Sun Oct 25 00:49:55 2015: New module introduced: m_inviteexception.so (Module version 2.0.20 r0)
+Sun Oct 25 00:49:55 2015: New module introduced: m_joinflood.so (Module version 2.0.20 r0)
+Sun Oct 25 00:49:55 2015: New module introduced: m_jumpserver.so (Module version 2.0.20 r0)
+Sun Oct 25 00:49:55 2015: New module introduced: m_knock.so (Module version 2.0.20 r0)
+Sun Oct 25 00:49:55 2015: New module introduced: m_messageflood.so (Module version 2.0.20 r0)
+Sun Oct 25 00:49:55 2015: New module introduced: m_namesx.so (Module version 2.0.20 r0)
+Sun Oct 25 00:49:55 2015: New module introduced: m_nickflood.so (Module version 2.0.20 r0)
+Sun Oct 25 00:49:55 2015: New module introduced: m_noctcp.so (Module version 2.0.20 r0)
+Sun Oct 25 00:49:55 2015: New module introduced: m_nokicks.so (Module version 2.0.20 r0)
+Sun Oct 25 00:49:55 2015: New module introduced: m_nonicks.so (Module version 2.0.20 r0)
+Sun Oct 25 00:49:55 2015: New module introduced: m_nopartmsg.so (Module version 2.0.20 r0)
+Sun Oct 25 00:49:55 2015: New module introduced: m_nonotice.so (Module version 2.0.20 r0)
+Sun Oct 25 00:49:55 2015: New module introduced: m_operchans.so (Module version 2.0.20 r0)
+Sun Oct 25 00:49:55 2015: New module introduced: m_operjoin.so (Module version 2.0.20 r0)
+Sun Oct 25 00:49:55 2015: New module introduced: m_operlog.so (Module version 2.0.20 r0)
+Sun Oct 25 00:49:55 2015: New module introduced: m_override.so (Module version 2.0.20 r0)
+Sun Oct 25 00:49:55 2015: New module introduced: m_operlevels.so (Module version 2.0.20 r0)
+Sun Oct 25 00:49:55 2015: New module introduced: m_opermodes.so (Module version 2.0.20 r0)
+Sun Oct 25 00:49:55 2015: New module introduced: m_password_hash.so (Module version 2.0.20 r0)
+Sun Oct 25 00:49:55 2015: New module introduced: m_muteban.so (Module version 2.0.20 r0)
+Sun Oct 25 00:49:55 2015: New module introduced: m_redirect.so (Module version 2.0.20 r0)
+Sun Oct 25 00:49:55 2015: New module introduced: m_regex_glob.so (Module version 2.0.20 r0)
+Sun Oct 25 00:49:55 2015: New module introduced: m_sajoin.so (Module version 2.0.20 r0)
+Sun Oct 25 00:49:55 2015: New module introduced: m_sakick.so (Module version 2.0.20 r0)
+Sun Oct 25 00:49:55 2015: New module introduced: m_samode.so (Module version 2.0.20 r0)
+Sun Oct 25 00:49:55 2015: New module introduced: m_sanick.so (Module version 2.0.20 r0)
+Sun Oct 25 00:49:55 2015: New module introduced: m_sapart.so (Module version 2.0.20 r0)
+Sun Oct 25 00:49:55 2015: New module introduced: m_saquit.so (Module version 2.0.20 r0)
+Sun Oct 25 00:49:55 2015: New module introduced: m_satopic.so (Module version 2.0.20 r0)
+Sun Oct 25 00:49:55 2015: New module introduced: m_servprotect.so (Module version 2.0.20 r0)
+Sun Oct 25 00:49:55 2015: New module introduced: m_seenicks.so (Module version 2.0.20 r0)
+Sun Oct 25 00:49:55 2015: New module introduced: m_setidle.so (Module version 2.0.20 r0)
+Sun Oct 25 00:49:55 2015: New module introduced: m_services_account.so (Module version 2.0.20 r0)
+Sun Oct 25 00:49:55 2015: New module introduced: m_sethost.so (Module version 2.0.20 r0)
+Sun Oct 25 00:49:55 2015: New module introduced: m_setident.so (Module version 2.0.20 r0)
+Sun Oct 25 00:49:55 2015: New module introduced: m_setname.so (Module version 2.0.20 r0)
+Sun Oct 25 00:49:55 2015: New module introduced: m_showwhois.so (Module version 2.0.20 r0)
+Sun Oct 25 00:49:55 2015: New module introduced: m_shun.so (Module version 2.0.20 r0)
+Sun Oct 25 00:49:55 2015: New module introduced: m_sslmodes.so (Module version 2.0.20 r0)
+Sun Oct 25 00:49:55 2015: New module introduced: m_sslinfo.so (Module version 2.0.20 r0)
+Sun Oct 25 00:49:55 2015: New module introduced: m_stripcolor.so (Module version 2.0.20 r0)
+Sun Oct 25 00:49:55 2015: New module introduced: m_svshold.so (Module version 2.0.20 r0)
+Sun Oct 25 00:49:55 2015: New module introduced: m_swhois.so (Module version 2.0.20 r0)
+Sun Oct 25 00:49:55 2015: New module introduced: m_tline.so (Module version 2.0.20 r0)
+Sun Oct 25 00:49:55 2015: New module introduced: m_uhnames.so (Module version 2.0.20 r0)
+Sun Oct 25 00:49:55 2015: New module introduced: m_userip.so (Module version 2.0.20 r0)
+Sun Oct 25 00:49:55 2015: New module introduced: m_watch.so (Module version 2.0.20 r0)
+Sun Oct 25 00:49:55 2015: New module introduced: m_spanningtree.so (Module version 2.0.20 r0)
+Sun Oct 25 00:49:55 2015: New module introduced: m_timedbans.so (Module version 2.0.20 r0)
+Sun Oct 25 00:49:55 2015: New module introduced: m_customprefix.so (Module version 2.0.20 r0)
+Sun Oct 25 00:49:55 2015: New module introduced: m_cloaking.so (Module version 2.0.20 r0)
+Sun Oct 25 00:49:55 2015: New module introduced: m_websocket.so (Module version 2.0.20 r0)
+Sun Oct 25 00:49:55 2015: Startup complete as 'salvationdevelopment.com'[794], 24000 max open sockets
+Sun Oct 25 01:08:03 2015: CONNECT: Client connecting on port 8080 (class main): Zay!Zay@127.0.0.1 (127.0.0.1) [Zay]
+Sun Oct 25 01:10:01 2015: QUIT: Client exiting: Zay!Zay@127.0.0.1 (127.0.0.1) [Quit: [object Event]]
+Sun Oct 25 01:10:09 2015: CONNECT: Client connecting on port 8080 (class main): Zay!Zay@127.0.0.1 (127.0.0.1) [Zay]
+Sun Oct 25 01:11:09 2015: QUIT: Client exiting: Zay!Zay@127.0.0.1 (127.0.0.1) [Quit: [object Event]]
+Sun Oct 25 01:11:37 2015: CONNECT: Client connecting on port 8080 (class main): Zay!Zay@127.0.0.1 (127.0.0.1) [Zay]
+Sun Oct 25 01:11:51 2015: QUIT: Client exiting: Zay!Zay@127.0.0.1 (127.0.0.1) [Quit: [object Event]]
+Sun Oct 25 01:11:57 2015: CONNECT: Client connecting on port 8080 (class main): Zay!Zay@127.0.0.1 (127.0.0.1) [Zay]
+Sun Oct 25 01:12:37 2015: QUIT: Client exiting: Zay!Zay@127.0.0.1 (127.0.0.1) [Quit: [object Event]]
+Sun Oct 25 01:12:54 2015: CONNECT: Client connecting on port 8080 (class main): Zay!Zay@127.0.0.1 (127.0.0.1) [Zay]
+Sun Oct 25 01:44:41 2015: QUIT: Client exiting: Zay!Zay@127.0.0.1 (127.0.0.1) [Quit: [object Event]]
+Sun Oct 25 01:44:47 2015: CONNECT: Client connecting on port 8080 (class main): Zay!Zay@127.0.0.1 (127.0.0.1) [Zay]
+Sun Oct 25 08:49:22 2015: QUIT: Client exiting: Zay!Zay@127.0.0.1 (127.0.0.1) [Quit: [object Event]]
+Sun Oct 25 08:49:29 2015: CONNECT: Client connecting on port 8080 (class main): Zay!Zay@127.0.0.1 (127.0.0.1) [Zay]
+Sun Oct 25 08:53:36 2015: QUIT: Client exiting: Zay!Zay@127.0.0.1 (127.0.0.1) [Ping timeout: 121 seconds]
+Sun Oct 25 08:59:57 2015: CONNECT: Client connecting on port 8080 (class main): Zay!Zay@127.0.0.1 (127.0.0.1) [Zay]
+Sun Oct 25 09:03:31 2015: QUIT: Client exiting: Zay!Zay@127.0.0.1 (127.0.0.1) [Quit: [object Event]]
+Sun Oct 25 09:03:45 2015: CONNECT: Client connecting on port 8080 (class main): Zay!Zay@127.0.0.1 (127.0.0.1) [Zay]
+Sun Oct 25 09:03:54 2015: QUIT: Client exiting: Zay!Zay@127.0.0.1 (127.0.0.1) [Quit: [object Event]]
+Sun Oct 25 09:04:05 2015: CONNECT: Client connecting on port 8080 (class main): Zay!Zay@127.0.0.1 (127.0.0.1) [Zay]
+Sun Oct 25 09:06:22 2015: QUIT: Client exiting: Zay!Zay@127.0.0.1 (127.0.0.1) [Quit: [object Event]]
+Sun Oct 25 09:08:36 2015: CONNECT: Client connecting on port 8080 (class main): Zay!Zay@127.0.0.1 (127.0.0.1) [Zay]
+Sun Oct 25 09:12:38 2015: QUIT: Client exiting: Zay!Zay@127.0.0.1 (127.0.0.1) [Ping timeout: 121 seconds]
+Sun Oct 25 10:21:41 2015: CONNECT: Client connecting on port 8080 (class main): Zay!Zay@127.0.0.1 (127.0.0.1) [Zay]
+Sun Oct 25 10:25:43 2015: QUIT: Client exiting: Zay!Zay@127.0.0.1 (127.0.0.1) [Ping timeout: 121 seconds]
+Sun Oct 25 14:25:55 2015: DEBUG: EH?! -- Time is jumping FORWARDS! Clock skipped 3 secs.
+Sun Oct 25 15:42:09 2015: DEBUG: EH?! -- Time is jumping FORWARDS! Clock skipped 4574 secs.
+Sun Oct 25 15:47:19 2015: CONNECT: Client connecting on port 8080 (class main): Zay!Zay@127.0.0.1 (127.0.0.1) [Zay]
+Sun Oct 25 15:51:10 2015: QUIT: Client exiting: Zay!Zay@127.0.0.1 (127.0.0.1) [Quit: [object Event]]
+Sun Oct 25 15:51:20 2015: CONNECT: Client connecting on port 8080 (class main): Zay!Zay@127.0.0.1 (127.0.0.1) [Zay]
+Sun Oct 25 15:51:22 2015: QUIT: Client exiting: Zay!Zay@127.0.0.1 (127.0.0.1) [Quit: [object Event]]
+Sun Oct 25 15:52:34 2015: CONNECT: Client connecting on port 8080 (class main): Zay!Zay@127.0.0.1 (127.0.0.1) [Zay]
+Sun Oct 25 15:52:53 2015: QUIT: Client exiting: Zay!Zay@127.0.0.1 (127.0.0.1) [Quit: [object Event]]
+Sun Oct 25 15:54:10 2015: CONNECT: Client connecting on port 8080 (class main): Zay!Zay@127.0.0.1 (127.0.0.1) [Zay]
+Sun Oct 25 15:54:33 2015: QUIT: Client exiting: Zay!Zay@127.0.0.1 (127.0.0.1) [Quit: [object Event]]
+Sun Oct 25 16:23:04 2015: CONNECT: Client connecting on port 8080 (class main): Zay!Zay@127.0.0.1 (127.0.0.1) [Zay]
+Sun Oct 25 16:27:06 2015: QUIT: Client exiting: Zay!Zay@127.0.0.1 (127.0.0.1) [Ping timeout: 121 seconds]
+Sun Oct 25 18:46:42 2015: DEBUG: EH?! -- Time is jumping FORWARDS! Clock skipped 7058 secs.
+Sun Oct 25 18:48:30 2015: CONNECT: Client connecting on port 8080 (class main): Zay!Zay@127.0.0.1 (127.0.0.1) [Zay]
+Sun Oct 25 18:49:40 2015: QUIT: Client exiting: Zay!Zay@127.0.0.1 (127.0.0.1) [Quit: [object Event]]
+Sun Oct 25 18:50:17 2015: CONNECT: Client connecting on port 8080 (class main): Zay!Zay@127.0.0.1 (127.0.0.1) [Zay]
+Sun Oct 25 18:51:26 2015: QUIT: Client exiting: Zay!Zay@127.0.0.1 (127.0.0.1) [Quit: [object Event]]
+Sun Oct 25 18:51:36 2015: CONNECT: Client connecting on port 8080 (class main): Zay!Zay@127.0.0.1 (127.0.0.1) [Zay]
+Sun Oct 25 18:55:58 2015: QUIT: Client exiting: Zay!Zay@127.0.0.1 (127.0.0.1) [Ping timeout: 121 seconds]
+Sun Oct 25 19:09:04 2015: CONNECT: Client connecting on port 8080 (class main): Zay!Zay@127.0.0.1 (127.0.0.1) [Zay]
+Sun Oct 25 19:14:10 2015: NICK: User Zay changed their nickname to manky
+Sun Oct 25 19:16:18 2015: QUIT: Client exiting: manky!Zay@127.0.0.1 (127.0.0.1) [Ping timeout: 121 seconds]
+Sun Oct 25 22:09:12 2015: CONNECT: Client connecting on port 8080 (class main): Zay!Zay@127.0.0.1 (127.0.0.1) [Zay]
+Sun Oct 25 22:09:26 2015: QUIT: Client exiting: Zay!Zay@127.0.0.1 (127.0.0.1) [Quit: [object Event]]
+Sun Oct 25 22:09:32 2015: CONNECT: Client connecting on port 8080 (class main): Zay!Zay@127.0.0.1 (127.0.0.1) [Zay]
+Sun Oct 25 22:13:34 2015: QUIT: Client exiting: Zay!Zay@127.0.0.1 (127.0.0.1) [Ping timeout: 121 seconds]
+Mon Oct 26 10:41:46 2015: DEBUG: EH?! -- Time is jumping FORWARDS! Clock skipped 37682 secs.
+Mon Oct 26 10:43:44 2015: CONNECT: Client connecting on port 8080 (class main): Zay!Zay@127.0.0.1 (127.0.0.1) [Zay]
+Mon Oct 26 10:44:02 2015: QUIT: Client exiting: Zay!Zay@127.0.0.1 (127.0.0.1) [Quit: [object Event]]
+Mon Oct 26 10:44:11 2015: CONNECT: Client connecting on port 8080 (class main): Zay!Zay@127.0.0.1 (127.0.0.1) [Zay]
+Mon Oct 26 10:44:46 2015: QUIT: Client exiting: Zay!Zay@127.0.0.1 (127.0.0.1) [Quit: [object Event]]
+Mon Oct 26 10:44:55 2015: CONNECT: Client connecting on port 8080 (class main): Zay!Zay@127.0.0.1 (127.0.0.1) [Zay]
+Mon Oct 26 10:49:41 2015: QUIT: Client exiting: Zay!Zay@127.0.0.1 (127.0.0.1) [Ping timeout: 121 seconds]
+Mon Oct 26 14:25:18 2015: CONNECT: Client connecting on port 8080 (class main): Zay!Zay@127.0.0.1 (127.0.0.1) [Zay]
+Mon Oct 26 14:26:25 2015: QUIT: Client exiting: Zay!Zay@127.0.0.1 (127.0.0.1) [Read Error]
+Mon Oct 26 14:26:49 2015: CONNECT: Client connecting on port 8080 (class main): Zay!Zay@127.0.0.1 (127.0.0.1) [Zay]
+Mon Oct 26 14:26:54 2015: QUIT: Client exiting: Zay!Zay@127.0.0.1 (127.0.0.1) [Quit: [object Event]]
+Mon Oct 26 14:27:44 2015: CONNECT: Client connecting on port 8080 (class main): Zay!Zay@127.0.0.1 (127.0.0.1) [Zay]
+Mon Oct 26 14:27:46 2015: QUIT: Client exiting: Zay!Zay@127.0.0.1 (127.0.0.1) [Quit: [object Event]]
+Mon Oct 26 14:27:50 2015: CONNECT: Client connecting on port 8080 (class main): Zay!Zay@127.0.0.1 (127.0.0.1) [Zay]
+Mon Oct 26 14:32:03 2015: QUIT: Client exiting: Zay!Zay@127.0.0.1 (127.0.0.1) [Ping timeout: 121 seconds]
+Mon Oct 26 14:38:51 2015: CONNECT: Client connecting on port 8080 (class main): Zay!Zay@127.0.0.1 (127.0.0.1) [Zay]
+Mon Oct 26 14:39:53 2015: QUIT: Client exiting: Zay!Zay@127.0.0.1 (127.0.0.1) [Read Error]
+Mon Oct 26 14:40:36 2015: CONNECT: Client connecting on port 8080 (class main): Zayel!Zayel@127.0.0.1 (127.0.0.1) [Zayel]
+Mon Oct 26 14:44:38 2015: QUIT: Client exiting: Zayel!Zayel@127.0.0.1 (127.0.0.1) [Ping timeout: 121 seconds]
+Mon Oct 26 14:53:22 2015: CONNECT: Client connecting on port 8080 (class main): Zayel!Zayel@127.0.0.1 (127.0.0.1) [Zayel]
+Mon Oct 26 14:57:24 2015: QUIT: Client exiting: Zayel!Zayel@127.0.0.1 (127.0.0.1) [Ping timeout: 121 seconds]
+Mon Oct 26 15:00:19 2015: CONNECT: Client connecting on port 8080 (class main): Zayel!Zayel@127.0.0.1 (127.0.0.1) [Zayel]
+Mon Oct 26 15:01:19 2015: QUIT: Client exiting: Zayel!Zayel@127.0.0.1 (127.0.0.1) [Read Error]
+Mon Oct 26 15:05:10 2015: CONNECT: Client connecting on port 8080 (class main): Zayel!Zayel@127.0.0.1 (127.0.0.1) [Zayel]
+Mon Oct 26 15:06:10 2015: QUIT: Client exiting: Zayel!Zayel@127.0.0.1 (127.0.0.1) [Read Error]
+Mon Oct 26 15:11:16 2015: CONNECT: Client connecting on port 8080 (class main): Zayel!Zayel@127.0.0.1 (127.0.0.1) [Zayel]
+Mon Oct 26 15:11:42 2015: QUIT: Client exiting: Zayel!Zayel@127.0.0.1 (127.0.0.1) [Client exited]
+Mon Oct 26 15:12:31 2015: CONNECT: Client connecting on port 8080 (class main): Zayel!Zayel@127.0.0.1 (127.0.0.1) [Zayel]
+Mon Oct 26 15:13:39 2015: QUIT: Client exiting: Zayel!Zayel@127.0.0.1 (127.0.0.1) [Read Error]
+Mon Oct 26 15:16:37 2015: CONNECT: Client connecting on port 8080 (class main): Zayel!Zayel@127.0.0.1 (127.0.0.1) [Zayel]
+Mon Oct 26 15:17:37 2015: QUIT: Client exiting: Zayel!Zayel@127.0.0.1 (127.0.0.1) [Read Error]
+Mon Oct 26 15:19:21 2015: CONNECT: Client connecting on port 8080 (class main): Zayel!Zayel@127.0.0.1 (127.0.0.1) [Zayel]
+Mon Oct 26 15:20:31 2015: QUIT: Client exiting: Zayel!Zayel@127.0.0.1 (127.0.0.1) [Quit: [object Event]]
+Mon Oct 26 15:20:42 2015: CONNECT: Client connecting on port 8080 (class main): Zayel!Zayel@127.0.0.1 (127.0.0.1) [Zayel]
+Mon Oct 26 15:24:44 2015: QUIT: Client exiting: Zayel!Zayel@127.0.0.1 (127.0.0.1) [Ping timeout: 121 seconds]
+Mon Oct 26 15:30:00 2015: CONNECT: Client connecting on port 8080 (class main): Zayel!Zayel@127.0.0.1 (127.0.0.1) [Zayel]
+Mon Oct 26 15:32:04 2015: QUIT: Client exiting: Zayel!Zayel@127.0.0.1 (127.0.0.1) [Read Error]
+Mon Oct 26 15:39:29 2015: CONNECT: Client connecting on port 8080 (class main): Zayel!Zayel@127.0.0.1 (127.0.0.1) [Zayel]
+Mon Oct 26 15:41:24 2015: QUIT: Client exiting: Zayel!Zayel@127.0.0.1 (127.0.0.1) [Read Error]
+Mon Oct 26 15:44:01 2015: CONNECT: Client connecting on port 8080 (class main): Zayel!Zayel@127.0.0.1 (127.0.0.1) [Zayel]
+Mon Oct 26 15:48:03 2015: QUIT: Client exiting: Zayel!Zayel@127.0.0.1 (127.0.0.1) [Ping timeout: 121 seconds]
+Mon Oct 26 15:48:20 2015: CONNECT: Client connecting on port 8080 (class main): Zayel!Zayel@127.0.0.1 (127.0.0.1) [Zayel]
+Mon Oct 26 15:49:21 2015: QUIT: Client exiting: Zayel!Zayel@127.0.0.1 (127.0.0.1) [Read Error]
+Mon Oct 26 15:52:10 2015: CONNECT: Client connecting on port 8080 (class main): Zayel!Zayel@127.0.0.1 (127.0.0.1) [Zayel]
+Mon Oct 26 15:56:12 2015: QUIT: Client exiting: Zayel!Zayel@127.0.0.1 (127.0.0.1) [Ping timeout: 121 seconds]
+Mon Oct 26 15:59:26 2015: CONNECT: Client connecting on port 8080 (class main): Zayel!Zayel@127.0.0.1 (127.0.0.1) [Zayel]
+Mon Oct 26 16:16:53 2015: QUIT: Client exiting: Zayel!Zayel@127.0.0.1 (127.0.0.1) [Quit: [object Event]]
+Mon Oct 26 16:17:03 2015: CONNECT: Client connecting on port 8080 (class main): Zayel!Zayel@127.0.0.1 (127.0.0.1) [Zayel]
+Mon Oct 26 16:20:39 2015: QUIT: Client exiting: Zayel!Zayel@127.0.0.1 (127.0.0.1) [Quit: [object Event]]
+Mon Oct 26 16:20:49 2015: CONNECT: Client connecting on port 8080 (class main): Zayel!Zayel@127.0.0.1 (127.0.0.1) [Zayel]
+Mon Oct 26 17:54:24 2015: QUIT: Client exiting: Zayel!Zayel@127.0.0.1 (127.0.0.1) [Quit: [object Event]]
+Mon Oct 26 17:54:35 2015: CONNECT: Client connecting on port 8080 (class main): Zayel!Zayel@127.0.0.1 (127.0.0.1) [Zayel]
+Mon Oct 26 17:56:59 2015: QUIT: Client exiting: Zayel!Zayel@127.0.0.1 (127.0.0.1) [Quit: [object Event]]
+Mon Oct 26 17:57:08 2015: CONNECT: Client connecting on port 8080 (class main): Zayel!Zayel@127.0.0.1 (127.0.0.1) [Zayel]
+Mon Oct 26 17:59:18 2015: QUIT: Client exiting: Zayel!Zayel@127.0.0.1 (127.0.0.1) [Read Error]
+Mon Oct 26 18:00:08 2015: CONNECT: Client connecting on port 8080 (class main): Zayel!Zayel@127.0.0.1 (127.0.0.1) [Zayel]
+Mon Oct 26 18:03:05 2015: QUIT: Client exiting: Zayel!Zayel@127.0.0.1 (127.0.0.1) [Quit: [object Event]]
+Mon Oct 26 18:03:16 2015: CONNECT: Client connecting on port 8080 (class main): Zayel!Zayel@127.0.0.1 (127.0.0.1) [Zayel]
+Mon Oct 26 18:06:21 2015: QUIT: Client exiting: Zayel!Zayel@127.0.0.1 (127.0.0.1) [Quit: [object Event]]
+Mon Oct 26 18:06:30 2015: CONNECT: Client connecting on port 8080 (class main): Zayel!Zayel@127.0.0.1 (127.0.0.1) [Zayel]
+Mon Oct 26 18:08:23 2015: QUIT: Client exiting: Zayel!Zayel@127.0.0.1 (127.0.0.1) [Quit: [object Event]]
+Mon Oct 26 18:08:33 2015: CONNECT: Client connecting on port 8080 (class main): Zayel!Zayel@127.0.0.1 (127.0.0.1) [Zayel]
+Mon Oct 26 18:13:24 2015: QUIT: Client exiting: Zayel!Zayel@127.0.0.1 (127.0.0.1) [Quit: [object Event]]
+Mon Oct 26 18:13:34 2015: CONNECT: Client connecting on port 8080 (class main): Zayel!Zayel@127.0.0.1 (127.0.0.1) [Zayel]
+Mon Oct 26 18:20:09 2015: QUIT: Client exiting: Zayel!Zayel@127.0.0.1 (127.0.0.1) [Quit: [object Event]]
+Mon Oct 26 18:20:18 2015: CONNECT: Client connecting on port 8080 (class main): Zayel!Zayel@127.0.0.1 (127.0.0.1) [Zayel]
+Mon Oct 26 18:22:53 2015: QUIT: Client exiting: Zayel!Zayel@127.0.0.1 (127.0.0.1) [Quit: [object Event]]
+Mon Oct 26 18:23:02 2015: CONNECT: Client connecting on port 8080 (class main): Zayel!Zayel@127.0.0.1 (127.0.0.1) [Zayel]
+Mon Oct 26 18:28:27 2015: QUIT: Client exiting: Zayel!Zayel@127.0.0.1 (127.0.0.1) [Read Error]
+Mon Oct 26 18:30:50 2015: CONNECT: Client connecting on port 8080 (class main): Zayel!Zayel@127.0.0.1 (127.0.0.1) [Zayel]
+Mon Oct 26 18:49:04 2015: QUIT: Client exiting: Zayel!Zayel@127.0.0.1 (127.0.0.1) [Quit: [object Event]]
+Mon Oct 26 18:50:42 2015: CONNECT: Client connecting on port 8080 (class main): Zayel!Zayel@127.0.0.1 (127.0.0.1) [Zayel]
+Mon Oct 26 19:05:07 2015: QUIT: Client exiting: Zayel!Zayel@127.0.0.1 (127.0.0.1) [Quit: [object Event]]
+Mon Oct 26 19:05:19 2015: CONNECT: Client connecting on port 8080 (class main): Zayel!Zayel@127.0.0.1 (127.0.0.1) [Zayel]
+Mon Oct 26 19:12:01 2015: QUIT: Client exiting: Zayel!Zayel@127.0.0.1 (127.0.0.1) [Quit: [object Event]]
+Mon Oct 26 19:12:10 2015: CONNECT: Client connecting on port 8080 (class main): Zayel!Zayel@127.0.0.1 (127.0.0.1) [Zayel]
+Mon Oct 26 19:15:34 2015: QUIT: Client exiting: Zayel!Zayel@127.0.0.1 (127.0.0.1) [Quit: [object Event]]
+Mon Oct 26 19:15:43 2015: CONNECT: Client connecting on port 8080 (class main): Zayel!Zayel@127.0.0.1 (127.0.0.1) [Zayel]
+Mon Oct 26 19:16:30 2015: QUIT: Client exiting: Zayel!Zayel@127.0.0.1 (127.0.0.1) [Quit: [object Event]]
+Mon Oct 26 19:16:44 2015: CONNECT: Client connecting on port 8080 (class main): Zayel!Zayel@127.0.0.1 (127.0.0.1) [Zayel]
+Mon Oct 26 19:29:18 2015: QUIT: Client exiting: Zayel!Zayel@127.0.0.1 (127.0.0.1) [Quit: [object Event]]
+Mon Oct 26 19:29:30 2015: CONNECT: Client connecting on port 8080 (class main): Zayel!Zayel@127.0.0.1 (127.0.0.1) [Zayel]
+Mon Oct 26 19:30:50 2015: QUIT: Client exiting: Zayel!Zayel@127.0.0.1 (127.0.0.1) [Quit: [object Event]]
+Mon Oct 26 19:31:00 2015: CONNECT: Client connecting on port 8080 (class main): Zayel!Zayel@127.0.0.1 (127.0.0.1) [Zayel]
+Mon Oct 26 19:32:12 2015: QUIT: Client exiting: Zayel!Zayel@127.0.0.1 (127.0.0.1) [Quit: [object Event]]
+Mon Oct 26 19:32:34 2015: CONNECT: Client connecting on port 8080 (class main): Zayel!Zayel@127.0.0.1 (127.0.0.1) [Zayel]
+Mon Oct 26 19:34:39 2015: QUIT: Client exiting: Zayel!Zayel@127.0.0.1 (127.0.0.1) [Quit: [object Event]]
+Mon Oct 26 19:34:51 2015: CONNECT: Client connecting on port 8080 (class main): Zayel!Zayel@127.0.0.1 (127.0.0.1) [Zayel]
+Mon Oct 26 20:17:53 2015: DEBUG: EH?! -- Time is jumping FORWARDS! Clock skipped 1211 secs.
+Mon Oct 26 20:17:56 2015: DEBUG: EH?! -- Time is jumping FORWARDS! Clock skipped 3 secs.
+Mon Oct 26 20:49:26 2015: DEBUG: EH?! -- Time is jumping FORWARDS! Clock skipped 1301 secs.
+Mon Oct 26 21:31:43 2015: QUIT: Client exiting: Zayel!Zayel@127.0.0.1 (127.0.0.1) [Quit: [object Event]]
+Mon Oct 26 22:57:36 2015: DEBUG: EH?! -- Time is jumping FORWARDS! Clock skipped 2097 secs.
+Mon Oct 26 23:29:18 2015: CONNECT: Client connecting on port 6667 (class main): James!James@127.0.0.1 (127.0.0.1) [...]
+Mon Oct 26 23:30:12 2015: CONNECT: Client connecting on port 8080 (class main): Zayel!Zayel@127.0.0.1 (127.0.0.1) [Zayel]
+Mon Oct 26 23:33:12 2015: QUIT: Client exiting: Zayel!Zayel@127.0.0.1 (127.0.0.1) [Quit: [object Event]]
+Mon Oct 26 23:35:50 2015: CONNECT: Client connecting on port 8080 (class main): Zayel!Zayel@127.0.0.1 (127.0.0.1) [Zayel]
+Mon Oct 26 23:57:56 2015: QUIT: Client exiting: Zayel!Zayel@127.0.0.1 (127.0.0.1) [Quit: [object Event]]
+Mon Oct 26 23:58:15 2015: CONNECT: Client connecting on port 8080 (class main): Zayel!Zayel@127.0.0.1 (127.0.0.1) [Zayel]
+Tue Oct 27 00:01:40 2015: QUIT: Client exiting: Zayel!Zayel@127.0.0.1 (127.0.0.1) [Quit: User unloaded page.]
+Tue Oct 27 00:01:49 2015: CONNECT: Client connecting on port 8080 (class main): Zayel!Zayel@127.0.0.1 (127.0.0.1) [Zayel]
+Tue Oct 27 00:03:58 2015: QUIT: Client exiting: Zayel!Zayel@127.0.0.1 (127.0.0.1) [Quit: User unloaded page.]
+Tue Oct 27 00:04:10 2015: CONNECT: Client connecting on port 8080 (class main): Zayel!Zayel@127.0.0.1 (127.0.0.1) [Zayel]
+Tue Oct 27 00:08:13 2015: QUIT: Client exiting: Zayel!Zayel@127.0.0.1 (127.0.0.1) [Quit: User unloaded page.]
+Tue Oct 27 00:08:21 2015: CONNECT: Client connecting on port 8080 (class main): Zayel!Zayel@127.0.0.1 (127.0.0.1) [Zayel]
+Tue Oct 27 00:13:05 2015: QUIT: Client exiting: Zayel!Zayel@127.0.0.1 (127.0.0.1) [Quit: User unloaded page.]
+Tue Oct 27 00:13:16 2015: CONNECT: Client connecting on port 8080 (class main): Zayel!Zayel@127.0.0.1 (127.0.0.1) [Zayel]
+Tue Oct 27 00:16:24 2015: QUIT: Client exiting: Zayel!Zayel@127.0.0.1 (127.0.0.1) [Quit: User unloaded page.]
+Tue Oct 27 00:16:38 2015: CONNECT: Client connecting on port 8080 (class main): Zayel!Zayel@127.0.0.1 (127.0.0.1) [Zayel]
+Tue Oct 27 00:39:19 2015: QUIT: Client exiting: Zayel!Zayel@127.0.0.1 (127.0.0.1) [Quit: User unloaded page.]
+Tue Oct 27 00:39:37 2015: CONNECT: Client connecting on port 8080 (class main): Zayel!Zayel@127.0.0.1 (127.0.0.1) [Zayel]
+Tue Oct 27 00:40:40 2015: QUIT: Client exiting: Zayel!Zayel@127.0.0.1 (127.0.0.1) [Read Error]
+Tue Oct 27 00:40:47 2015: CONNECT: Client connecting on port 8080 (class main): Zayel!Zayel@127.0.0.1 (127.0.0.1) [Zayel]
+Tue Oct 27 00:41:57 2015: QUIT: Client exiting: Zayel!Zayel@127.0.0.1 (127.0.0.1) [Quit: User unloaded page.]
+Tue Oct 27 00:42:57 2015: CONNECT: Client connecting on port 8080 (class main): Zayel!Zayel@127.0.0.1 (127.0.0.1) [Zayel]
+Tue Oct 27 00:44:05 2015: QUIT: Client exiting: Zayel!Zayel@127.0.0.1 (127.0.0.1) [Quit: User unloaded page.]
+Tue Oct 27 00:46:03 2015: CONNECT: Client connecting on port 8080 (class main): Zayel!Zayel@127.0.0.1 (127.0.0.1) [Zayel]
+Tue Oct 27 00:47:13 2015: QUIT: Client exiting: Zayel!Zayel@127.0.0.1 (127.0.0.1) [Quit: User unloaded page.]
+Tue Oct 27 00:47:40 2015: CONNECT: Client connecting on port 8080 (class main): Zayel!Zayel@127.0.0.1 (127.0.0.1) [Zayel]
+Tue Oct 27 02:00:32 2015: QUIT: Client exiting: Zayel!Zayel@127.0.0.1 (127.0.0.1) [Quit: User unloaded page.]
+Tue Oct 27 02:00:50 2015: CONNECT: Client connecting on port 8080 (class main): Zayel!Zayel@127.0.0.1 (127.0.0.1) [Zayel]
+Tue Oct 27 02:02:44 2015: QUIT: Client exiting: Zayel!Zayel@127.0.0.1 (127.0.0.1) [Quit: User unloaded page.]
+Tue Oct 27 02:03:13 2015: CONNECT: Client connecting on port 8080 (class main): Zayel!Zayel@127.0.0.1 (127.0.0.1) [Zayel]
+Tue Oct 27 02:09:13 2015: ANNOUNCEMENT: WARNING: maximum LOCAL connections (3) exceeded for IP 127.0.0.1
+Tue Oct 27 02:10:03 2015: QUIT: Client exiting: Zayel!Zayel@127.0.0.1 (127.0.0.1) [Read Error]
+Tue Oct 27 02:10:50 2015: QUIT: Client exiting: James!James@127.0.0.1 (127.0.0.1) [Quit: ]
+Tue Oct 27 06:45:54 2015: DEBUG: EH?! -- Time is jumping FORWARDS! Clock skipped 15852 secs.
+Tue Oct 27 07:11:07 2015: m_websocket: WebSocketSession::Handshake(): Client key was not provided
+Tue Oct 27 07:19:31 2015: m_websocket: WebSocketSession::Handshake(): Client key was not provided
+Tue Oct 27 07:19:31 2015: ANNOUNCEMENT: WARNING: maximum LOCAL connections (3) exceeded for IP 127.0.0.1
+Tue Oct 27 07:19:35 2015: ANNOUNCEMENT: (last message repeated 3 times)
+Tue Oct 27 07:19:42 2015: m_websocket: WebSocketSession::Handshake(): Client key was not provided
+Tue Oct 27 07:23:00 2015: m_websocket: WebSocketSession::Handshake(): Client key was not provided
+Tue Oct 27 07:23:00 2015: ANNOUNCEMENT: WARNING: maximum LOCAL connections (3) exceeded for IP 127.0.0.1
+Tue Oct 27 07:23:05 2015: ANNOUNCEMENT: (last message repeated 3 times)
+Tue Oct 27 07:23:11 2015: m_websocket: WebSocketSession::Handshake(): Client key was not provided
+Tue Oct 27 07:35:06 2015: m_websocket: WebSocketSession::Handshake(): Client key was not provided
+Tue Oct 27 07:35:06 2015: ANNOUNCEMENT: WARNING: maximum LOCAL connections (3) exceeded for IP 127.0.0.1
+Tue Oct 27 07:35:10 2015: ANNOUNCEMENT: (last message repeated 3 times)
+Tue Oct 27 07:35:17 2015: m_websocket: WebSocketSession::Handshake(): Client key was not provided
+Tue Oct 27 07:35:18 2015: ANNOUNCEMENT: WARNING: maximum LOCAL connections (3) exceeded for IP 127.0.0.1
+Tue Oct 27 07:35:18 2015: m_websocket: WebSocketSession::Handshake(): Client key was not provided
+Tue Oct 27 07:35:20 2015: ANNOUNCEMENT: (last message repeated 2 times)
+Tue Oct 27 07:35:29 2015: m_websocket: WebSocketSession::Handshake(): Client key was not provided
+Tue Oct 27 07:35:40 2015: m_websocket: WebSocketSession::Handshake(): Client key was not provided
+Tue Oct 27 07:35:56 2015: m_websocket: WebSocketSession::Handshake(): Client key was not provided
+Tue Oct 27 07:36:29 2015: ANNOUNCEMENT: WARNING: maximum LOCAL connections (3) exceeded for IP 127.0.0.1
+Tue Oct 27 07:36:30 2015: m_websocket: WebSocketSession::Handshake(): Client key was not provided
+Tue Oct 27 07:36:30 2015: ANNOUNCEMENT: (last message repeated 3 times)
+Tue Oct 27 07:36:31 2015: ANNOUNCEMENT: WARNING: maximum LOCAL connections (3) exceeded for IP 127.0.0.1
+Tue Oct 27 07:36:32 2015: m_websocket: WebSocketSession::Handshake(): Client key was not provided
+Tue Oct 27 07:36:32 2015: m_websocket: WebSocketSession::Handshake(): Client key was not provided
+Tue Oct 27 07:36:32 2015: m_websocket: WebSocketSession::Handshake(): Client key was not provided
+Tue Oct 27 07:36:35 2015: ANNOUNCEMENT: (last message repeated 29 times)
+Tue Oct 27 07:36:40 2015: ANNOUNCEMENT: WARNING: maximum LOCAL connections (3) exceeded for IP 127.0.0.1
+Tue Oct 27 07:36:40 2015: m_websocket: WebSocketSession::Handshake(): Client key was not provided
+Tue Oct 27 07:36:42 2015: m_websocket: WebSocketSession::Handshake(): Client key was not provided
+Tue Oct 27 07:36:45 2015: ANNOUNCEMENT: WARNING: maximum LOCAL connections (3) exceeded for IP 127.0.0.1
+Tue Oct 27 07:36:45 2015: m_websocket: WebSocketSession::Handshake(): Client key was not provided
+Tue Oct 27 07:36:50 2015: ANNOUNCEMENT: (last message repeated 3 times)
+Tue Oct 27 07:36:56 2015: m_websocket: WebSocketSession::Handshake(): Client key was not provided
+Tue Oct 27 07:39:07 2015: m_websocket: WebSocketSession::Handshake(): Client key was not provided
+Tue Oct 27 07:39:18 2015: m_websocket: WebSocketSession::Handshake(): Client key was not provided
+Tue Oct 27 07:39:29 2015: m_websocket: WebSocketSession::Handshake(): Client key was not provided
+Tue Oct 27 07:39:45 2015: m_websocket: WebSocketSession::Handshake(): Client key was not provided
+Tue Oct 27 07:40:26 2015: m_websocket: WebSocketSession::Handshake(): Client key was not provided
+Tue Oct 27 07:41:37 2015: m_websocket: WebSocketSession::Handshake(): Client key was not provided
+Tue Oct 27 07:42:22 2015: m_websocket: WebSocketSession::Handshake(): Client key was not provided
+Tue Oct 27 07:42:33 2015: m_websocket: WebSocketSession::Handshake(): Client key was not provided
+Tue Oct 27 07:53:27 2015: CONNECT: Client connecting on port 8080 (class main): Duelist_Bot!Duelist_Bot@127.0.0.1 (127.0.0.1) [Duelist_Bot]
+Tue Oct 27 07:54:26 2015: CONNECT: Client connecting on port 6667 (class main): James!James@127.0.0.1 (127.0.0.1) [...]
+Tue Oct 27 07:57:22 2015: QUIT: Client exiting: Duelist_Bot!Duelist_Bot@127.0.0.1 (127.0.0.1) [Quit: User unloaded page.]
+Tue Oct 27 07:57:35 2015: CONNECT: Client connecting on port 8080 (class main): Duelist_Bot!Duelist_Bot@127.0.0.1 (127.0.0.1) [Duelist_Bot]
+Tue Oct 27 07:58:03 2015: QUIT: Client exiting: Duelist_Bot!Duelist_Bot@127.0.0.1 (127.0.0.1) [Quit: User unloaded page.]
+Tue Oct 27 07:58:12 2015: CONNECT: Client connecting on port 8080 (class main): Duelist_Bot!Duelist_Bot@127.0.0.1 (127.0.0.1) [Duelist_Bot]
+Tue Oct 27 08:00:40 2015: QUIT: Client exiting: Duelist_Bot!Duelist_Bot@127.0.0.1 (127.0.0.1) [Quit: User unloaded page.]
+Tue Oct 27 08:00:49 2015: CONNECT: Client connecting on port 8080 (class main): Duelist_Bot!Duelist_Bot@127.0.0.1 (127.0.0.1) [Duelist_Bot]
+Tue Oct 27 08:01:53 2015: QUIT: Client exiting: Duelist_Bot!Duelist_Bot@127.0.0.1 (127.0.0.1) [Quit: User unloaded page.]
+Tue Oct 27 08:02:03 2015: CONNECT: Client connecting on port 8080 (class main): Duelist_Bot!Duelist_Bot@127.0.0.1 (127.0.0.1) [Duelist_Bot]
+Tue Oct 27 08:03:00 2015: QUIT: Client exiting: Duelist_Bot!Duelist_Bot@127.0.0.1 (127.0.0.1) [Quit: User unloaded page.]
+Tue Oct 27 08:03:10 2015: CONNECT: Client connecting on port 8080 (class main): Duelist_Bot!Duelist_Bot@127.0.0.1 (127.0.0.1) [Duelist_Bot]
+Tue Oct 27 08:03:50 2015: QUIT: Client exiting: Duelist_Bot!Duelist_Bot@127.0.0.1 (127.0.0.1) [Quit: User unloaded page.]
+Tue Oct 27 08:04:01 2015: CONNECT: Client connecting on port 8080 (class main): Duelist_Bot!Duelist_Bot@127.0.0.1 (127.0.0.1) [Duelist_Bot]
+Tue Oct 27 08:04:37 2015: QUIT: Client exiting: Duelist_Bot!Duelist_Bot@127.0.0.1 (127.0.0.1) [Quit: User unloaded page.]
+Tue Oct 27 08:05:11 2015: CONNECT: Client connecting on port 8080 (class main): Duelist_Bot!Duelist_Bot@127.0.0.1 (127.0.0.1) [Duelist_Bot]
+Tue Oct 27 08:05:49 2015: QUIT: Client exiting: Duelist_Bot!Duelist_Bot@127.0.0.1 (127.0.0.1) [Quit: User unloaded page.]
+Tue Oct 27 08:06:03 2015: CONNECT: Client connecting on port 8080 (class main): Duelist_Bot!Duelist_Bot@127.0.0.1 (127.0.0.1) [Duelist_Bot]
+Tue Oct 27 08:07:20 2015: QUIT: Client exiting: Duelist_Bot!Duelist_Bot@127.0.0.1 (127.0.0.1) [Quit: User unloaded page.]
+Tue Oct 27 08:07:37 2015: CONNECT: Client connecting on port 8080 (class main): Duelist_Bot!Duelist_Bot@127.0.0.1 (127.0.0.1) [Duelist_Bot]
+Tue Oct 27 08:08:57 2015: QUIT: Client exiting: Duelist_Bot!Duelist_Bot@127.0.0.1 (127.0.0.1) [Quit: User unloaded page.]
+Tue Oct 27 08:09:09 2015: CONNECT: Client connecting on port 8080 (class main): Duelist_Bot!Duelist_Bot@127.0.0.1 (127.0.0.1) [Duelist_Bot]
+Tue Oct 27 08:10:24 2015: QUIT: Client exiting: Duelist_Bot!Duelist_Bot@127.0.0.1 (127.0.0.1) [Quit: User unloaded page.]
+Tue Oct 27 08:10:39 2015: CONNECT: Client connecting on port 8080 (class main): Duelist_Bot!Duelist_Bot@127.0.0.1 (127.0.0.1) [Duelist_Bot]
+Tue Oct 27 08:11:57 2015: QUIT: Client exiting: Duelist_Bot!Duelist_Bot@127.0.0.1 (127.0.0.1) [Quit: User unloaded page.]
+Tue Oct 27 08:12:31 2015: CONNECT: Client connecting on port 8080 (class main): Duelist_Bot!Duelist_Bot@127.0.0.1 (127.0.0.1) [Duelist_Bot]
+Tue Oct 27 08:15:59 2015: QUIT: Client exiting: Duelist_Bot!Duelist_Bot@127.0.0.1 (127.0.0.1) [Quit: User unloaded page.]
+Tue Oct 27 08:16:09 2015: CONNECT: Client connecting on port 8080 (class main): Duelist_Bot!Duelist_Bot@127.0.0.1 (127.0.0.1) [Duelist_Bot]
+Tue Oct 27 08:16:55 2015: QUIT: Client exiting: Duelist_Bot!Duelist_Bot@127.0.0.1 (127.0.0.1) [Quit: User unloaded page.]
+Tue Oct 27 08:17:04 2015: CONNECT: Client connecting on port 8080 (class main): Duelist_Bot!Duelist_Bot@127.0.0.1 (127.0.0.1) [Duelist_Bot]
+Tue Oct 27 08:18:08 2015: QUIT: Client exiting: Duelist_Bot!Duelist_Bot@127.0.0.1 (127.0.0.1) [Quit: User unloaded page.]
+Tue Oct 27 08:18:21 2015: CONNECT: Client connecting on port 8080 (class main): Duelist_Bot!Duelist_Bot@127.0.0.1 (127.0.0.1) [Duelist_Bot]
+Tue Oct 27 08:19:13 2015: QUIT: Client exiting: Duelist_Bot!Duelist_Bot@127.0.0.1 (127.0.0.1) [Quit: User unloaded page.]
+Tue Oct 27 08:19:22 2015: CONNECT: Client connecting on port 8080 (class main): Duelist_Bot!Duelist_Bot@127.0.0.1 (127.0.0.1) [Duelist_Bot]
+Tue Oct 27 08:20:04 2015: QUIT: Client exiting: Duelist_Bot!Duelist_Bot@127.0.0.1 (127.0.0.1) [Quit: User unloaded page.]
+Tue Oct 27 08:20:18 2015: CONNECT: Client connecting on port 8080 (class main): Duelist_Bot!Duelist_Bot@127.0.0.1 (127.0.0.1) [Duelist_Bot]
+Tue Oct 27 08:22:16 2015: QUIT: Client exiting: Duelist_Bot!Duelist_Bot@127.0.0.1 (127.0.0.1) [Quit: User unloaded page.]
+Tue Oct 27 08:22:25 2015: CONNECT: Client connecting on port 8080 (class main): Duelist_Bot!Duelist_Bot@127.0.0.1 (127.0.0.1) [Duelist_Bot]
+Tue Oct 27 08:24:01 2015: QUIT: Client exiting: Duelist_Bot!Duelist_Bot@127.0.0.1 (127.0.0.1) [Quit: User unloaded page.]
+Tue Oct 27 08:24:11 2015: CONNECT: Client connecting on port 8080 (class main): Duelist_Bot!Duelist_Bot@127.0.0.1 (127.0.0.1) [Duelist_Bot]
+Tue Oct 27 08:44:58 2015: QUIT: Client exiting: Duelist_Bot!Duelist_Bot@127.0.0.1 (127.0.0.1) [Quit: User unloaded page.]
+Tue Oct 27 08:45:17 2015: CONNECT: Client connecting on port 8080 (class main): Duelist_Bot!Duelist_Bot@127.0.0.1 (127.0.0.1) [Duelist_Bot]
+Tue Oct 27 08:49:12 2015: QUIT: Client exiting: Duelist_Bot!Duelist_Bot@127.0.0.1 (127.0.0.1) [Quit: User unloaded page.]
+Tue Oct 27 08:49:24 2015: CONNECT: Client connecting on port 8080 (class main): Duelist_Bot!Duelist_Bot@127.0.0.1 (127.0.0.1) [Duelist_Bot]
+Tue Oct 27 08:49:52 2015: QUIT: Client exiting: Duelist_Bot!Duelist_Bot@127.0.0.1 (127.0.0.1) [Quit: User unloaded page.]
+Tue Oct 27 08:50:05 2015: CONNECT: Client connecting on port 8080 (class main): Duelist_Bot!Duelist_Bot@127.0.0.1 (127.0.0.1) [Duelist_Bot]
+Tue Oct 27 08:53:28 2015: QUIT: Client exiting: Duelist_Bot!Duelist_Bot@127.0.0.1 (127.0.0.1) [Quit: User unloaded page.]
+Tue Oct 27 08:53:41 2015: CONNECT: Client connecting on port 8080 (class main): Duelist_Bot!Duelist_Bot@127.0.0.1 (127.0.0.1) [Duelist_Bot]
+Tue Oct 27 08:55:44 2015: QUIT: Client exiting: Duelist_Bot!Duelist_Bot@127.0.0.1 (127.0.0.1) [Quit: User unloaded page.]
+Tue Oct 27 08:55:54 2015: CONNECT: Client connecting on port 8080 (class main): Duelist_Bot!Duelist_Bot@127.0.0.1 (127.0.0.1) [Duelist_Bot]
+Tue Oct 27 08:56:44 2015: QUIT: Client exiting: Duelist_Bot!Duelist_Bot@127.0.0.1 (127.0.0.1) [Quit: User unloaded page.]
+Tue Oct 27 08:57:27 2015: CONNECT: Client connecting on port 8080 (class main): Duelist_Bot!Duelist_Bot@127.0.0.1 (127.0.0.1) [Duelist_Bot]
+Tue Oct 27 08:59:33 2015: QUIT: Client exiting: Duelist_Bot!Duelist_Bot@127.0.0.1 (127.0.0.1) [Quit: User unloaded page.]
+Tue Oct 27 08:59:46 2015: CONNECT: Client connecting on port 8080 (class main): Duelist_Bot!Duelist_Bot@127.0.0.1 (127.0.0.1) [Duelist_Bot]
+Tue Oct 27 09:00:24 2015: QUIT: Client exiting: Duelist_Bot!Duelist_Bot@127.0.0.1 (127.0.0.1) [Quit: User unloaded page.]
+Tue Oct 27 09:00:40 2015: CONNECT: Client connecting on port 8080 (class main): Duelist_Bot!Duelist_Bot@127.0.0.1 (127.0.0.1) [Duelist_Bot]
+Tue Oct 27 09:01:58 2015: QUIT: Client exiting: Duelist_Bot!Duelist_Bot@127.0.0.1 (127.0.0.1) [Quit: User unloaded page.]
+Tue Oct 27 09:02:08 2015: CONNECT: Client connecting on port 8080 (class main): Duelist_Bot!Duelist_Bot@127.0.0.1 (127.0.0.1) [Duelist_Bot]
+Tue Oct 27 09:03:20 2015: QUIT: Client exiting: Duelist_Bot!Duelist_Bot@127.0.0.1 (127.0.0.1) [Quit: User unloaded page.]
+Tue Oct 27 09:03:39 2015: CONNECT: Client connecting on port 8080 (class main): Duelist_Bot!Duelist_Bot@127.0.0.1 (127.0.0.1) [Duelist_Bot]
+Tue Oct 27 09:06:16 2015: QUIT: Client exiting: Duelist_Bot!Duelist_Bot@127.0.0.1 (127.0.0.1) [Quit: User unloaded page.]
+Tue Oct 27 09:06:33 2015: CONNECT: Client connecting on port 8080 (class main): Duelist_Bot!Duelist_Bot@127.0.0.1 (127.0.0.1) [Duelist_Bot]
+Tue Oct 27 09:47:10 2015: QUIT: Client exiting: Duelist_Bot!Duelist_Bot@127.0.0.1 (127.0.0.1) [Quit: User unloaded page.]
+Tue Oct 27 09:47:19 2015: CONNECT: Client connecting on port 8080 (class main): Duelist_Bot!Duelist_Bot@127.0.0.1 (127.0.0.1) [Duelist_Bot]
+Tue Oct 27 09:53:14 2015: QUIT: Client exiting: Duelist_Bot!Duelist_Bot@127.0.0.1 (127.0.0.1) [Quit: User unloaded page.]
+Tue Oct 27 09:53:56 2015: CONNECT: Client connecting on port 8080 (class main): Duelist_Bot!Duelist_Bot@127.0.0.1 (127.0.0.1) [Duelist_Bot]
+Tue Oct 27 09:54:04 2015: QUIT: Client exiting: Duelist_Bot!Duelist_Bot@127.0.0.1 (127.0.0.1) [Quit: User unloaded page.]
+Tue Oct 27 09:54:13 2015: CONNECT: Client connecting on port 8080 (class main): Duelist_Bot!Duelist_Bot@127.0.0.1 (127.0.0.1) [Duelist_Bot]
+Tue Oct 27 09:55:07 2015: QUIT: Client exiting: Duelist_Bot!Duelist_Bot@127.0.0.1 (127.0.0.1) [Quit: User unloaded page.]
+Tue Oct 27 09:55:25 2015: CONNECT: Client connecting on port 8080 (class main): Duelist_Bot!Duelist_Bot@127.0.0.1 (127.0.0.1) [Duelist_Bot]
+Tue Oct 27 09:56:01 2015: QUIT: Client exiting: Duelist_Bot!Duelist_Bot@127.0.0.1 (127.0.0.1) [Quit: User unloaded page.]
+Tue Oct 27 09:56:31 2015: CONNECT: Client connecting on port 8080 (class main): Duelist_Bot!Duelist_Bot@127.0.0.1 (127.0.0.1) [Duelist_Bot]
+Tue Oct 27 09:58:15 2015: QUIT: Client exiting: Duelist_Bot!Duelist_Bot@127.0.0.1 (127.0.0.1) [Quit: User unloaded page.]
+Tue Oct 27 10:02:52 2015: CONNECT: Client connecting on port 8080 (class main): Duelist_Bot!Duelist_Bot@127.0.0.1 (127.0.0.1) [Duelist_Bot]
+Tue Oct 27 10:04:39 2015: QUIT: Client exiting: Duelist_Bot!Duelist_Bot@127.0.0.1 (127.0.0.1) [Quit: User unloaded page.]
+Tue Oct 27 10:04:48 2015: CONNECT: Client connecting on port 8080 (class main): Duelist_Bot!Duelist_Bot@127.0.0.1 (127.0.0.1) [Duelist_Bot]
+Tue Oct 27 10:05:37 2015: QUIT: Client exiting: Duelist_Bot!Duelist_Bot@127.0.0.1 (127.0.0.1) [Quit: User unloaded page.]
+Tue Oct 27 10:05:45 2015: CONNECT: Client connecting on port 8080 (class main): Duelist_Bot!Duelist_Bot@127.0.0.1 (127.0.0.1) [Duelist_Bot]
+Tue Oct 27 10:06:05 2015: QUIT: Client exiting: Duelist_Bot!Duelist_Bot@127.0.0.1 (127.0.0.1) [Quit: User unloaded page.]
+Tue Oct 27 10:06:19 2015: CONNECT: Client connecting on port 8080 (class main): Duelist_Bot!Duelist_Bot@127.0.0.1 (127.0.0.1) [Duelist_Bot]
+Tue Oct 27 10:07:26 2015: QUIT: Client exiting: Duelist_Bot!Duelist_Bot@127.0.0.1 (127.0.0.1) [Quit: User unloaded page.]
+Tue Oct 27 10:07:35 2015: CONNECT: Client connecting on port 8080 (class main): Duelist_Bot!Duelist_Bot@127.0.0.1 (127.0.0.1) [Duelist_Bot]
+Tue Oct 27 10:09:22 2015: QUIT: Client exiting: Duelist_Bot!Duelist_Bot@127.0.0.1 (127.0.0.1) [Quit: User unloaded page.]
+Tue Oct 27 10:09:40 2015: CONNECT: Client connecting on port 8080 (class main): Duelist_Bot!Duelist_Bot@127.0.0.1 (127.0.0.1) [Duelist_Bot]
+Tue Oct 27 10:11:17 2015: QUIT: Client exiting: Duelist_Bot!Duelist_Bot@127.0.0.1 (127.0.0.1) [Quit: User unloaded page.]
+Tue Oct 27 10:11:26 2015: CONNECT: Client connecting on port 8080 (class main): Duelist_Bot!Duelist_Bot@127.0.0.1 (127.0.0.1) [Duelist_Bot]
+Tue Oct 27 10:16:16 2015: QUIT: Client exiting: Duelist_Bot!Duelist_Bot@127.0.0.1 (127.0.0.1) [Quit: User unloaded page.]
+Tue Oct 27 10:16:26 2015: CONNECT: Client connecting on port 8080 (class main): Duelist_Bot!Duelist_Bot@127.0.0.1 (127.0.0.1) [Duelist_Bot]
+Tue Oct 27 10:17:11 2015: QUIT: Client exiting: Duelist_Bot!Duelist_Bot@127.0.0.1 (127.0.0.1) [Quit: User unloaded page.]
+Tue Oct 27 10:17:22 2015: CONNECT: Client connecting on port 8080 (class main): Duelist_Bot!Duelist_Bot@127.0.0.1 (127.0.0.1) [Duelist_Bot]
+Tue Oct 27 10:18:42 2015: QUIT: Client exiting: Duelist_Bot!Duelist_Bot@127.0.0.1 (127.0.0.1) [Quit: User unloaded page.]
+Tue Oct 27 10:18:51 2015: CONNECT: Client connecting on port 8080 (class main): Duelist_Bot!Duelist_Bot@127.0.0.1 (127.0.0.1) [Duelist_Bot]
+Tue Oct 27 10:20:52 2015: QUIT: Client exiting: Duelist_Bot!Duelist_Bot@127.0.0.1 (127.0.0.1) [Quit: User unloaded page.]
+Tue Oct 27 10:21:01 2015: CONNECT: Client connecting on port 8080 (class main): Duelist_Bot!Duelist_Bot@127.0.0.1 (127.0.0.1) [Duelist_Bot]
+Tue Oct 27 10:21:44 2015: QUIT: Client exiting: Duelist_Bot!Duelist_Bot@127.0.0.1 (127.0.0.1) [Quit: User unloaded page.]
+Tue Oct 27 10:21:55 2015: CONNECT: Client connecting on port 8080 (class main): Duelist_Bot!Duelist_Bot@127.0.0.1 (127.0.0.1) [Duelist_Bot]
+Tue Oct 27 10:22:35 2015: QUIT: Client exiting: Duelist_Bot!Duelist_Bot@127.0.0.1 (127.0.0.1) [Quit: User unloaded page.]
+Tue Oct 27 10:22:46 2015: CONNECT: Client connecting on port 8080 (class main): Duelist_Bot!Duelist_Bot@127.0.0.1 (127.0.0.1) [Duelist_Bot]
+Tue Oct 27 10:23:58 2015: QUIT: Client exiting: Duelist_Bot!Duelist_Bot@127.0.0.1 (127.0.0.1) [Quit: User unloaded page.]
+Tue Oct 27 10:24:06 2015: CONNECT: Client connecting on port 8080 (class main): Duelist_Bot!Duelist_Bot@127.0.0.1 (127.0.0.1) [Duelist_Bot]
+Tue Oct 27 10:24:52 2015: QUIT: Client exiting: Duelist_Bot!Duelist_Bot@127.0.0.1 (127.0.0.1) [Quit: User unloaded page.]
+Tue Oct 27 10:25:18 2015: CONNECT: Client connecting on port 8080 (class main): Duelist_Bot!Duelist_Bot@127.0.0.1 (127.0.0.1) [Duelist_Bot]
+Tue Oct 27 10:27:03 2015: QUIT: Client exiting: Duelist_Bot!Duelist_Bot@127.0.0.1 (127.0.0.1) [Quit: User unloaded page.]
+Tue Oct 27 10:27:12 2015: CONNECT: Client connecting on port 8080 (class main): Duelist_Bot!Duelist_Bot@127.0.0.1 (127.0.0.1) [Duelist_Bot]
+Tue Oct 27 10:41:25 2015: QUIT: Client exiting: Duelist_Bot!Duelist_Bot@127.0.0.1 (127.0.0.1) [Quit: User unloaded page.]
+Tue Oct 27 10:41:45 2015: CONNECT: Client connecting on port 8080 (class main): Duelist_Bot!Duelist_Bot@127.0.0.1 (127.0.0.1) [Duelist_Bot]
+Tue Oct 27 10:43:56 2015: QUIT: Client exiting: Duelist_Bot!Duelist_Bot@127.0.0.1 (127.0.0.1) [Quit: User unloaded page.]
+Tue Oct 27 10:44:06 2015: CONNECT: Client connecting on port 8080 (class main): Duelist_Bot!Duelist_Bot@127.0.0.1 (127.0.0.1) [Duelist_Bot]
+Tue Oct 27 10:46:20 2015: QUIT: Client exiting: Duelist_Bot!Duelist_Bot@127.0.0.1 (127.0.0.1) [Quit: User unloaded page.]
+Tue Oct 27 10:46:35 2015: CONNECT: Client connecting on port 8080 (class main): Duelist_Bot!Duelist_Bot@127.0.0.1 (127.0.0.1) [Duelist_Bot]
+Tue Oct 27 10:48:29 2015: QUIT: Client exiting: Duelist_Bot!Duelist_Bot@127.0.0.1 (127.0.0.1) [Quit: User unloaded page.]
+Tue Oct 27 10:48:38 2015: CONNECT: Client connecting on port 8080 (class main): Duelist_Bot!Duelist_Bot@127.0.0.1 (127.0.0.1) [Duelist_Bot]
+Tue Oct 27 10:58:09 2015: QUIT: Client exiting: Duelist_Bot!Duelist_Bot@127.0.0.1 (127.0.0.1) [Quit: User unloaded page.]
+Tue Oct 27 10:58:17 2015: CONNECT: Client connecting on port 8080 (class main): Duelist_Bot!Duelist_Bot@127.0.0.1 (127.0.0.1) [Duelist_Bot]
+Tue Oct 27 11:00:03 2015: QUIT: Client exiting: Duelist_Bot!Duelist_Bot@127.0.0.1 (127.0.0.1) [Quit: User unloaded page.]
+Tue Oct 27 11:00:12 2015: CONNECT: Client connecting on port 8080 (class main): Duelist_Bot!Duelist_Bot@127.0.0.1 (127.0.0.1) [Duelist_Bot]
+Tue Oct 27 11:01:34 2015: QUIT: Client exiting: Duelist_Bot!Duelist_Bot@127.0.0.1 (127.0.0.1) [Quit: User unloaded page.]
+Tue Oct 27 11:01:43 2015: CONNECT: Client connecting on port 8080 (class main): Duelist_Bot!Duelist_Bot@127.0.0.1 (127.0.0.1) [Duelist_Bot]
+Tue Oct 27 11:38:37 2015: QUIT: Client exiting: Duelist_Bot!Duelist_Bot@127.0.0.1 (127.0.0.1) [Quit: User unloaded page.]
+Tue Oct 27 11:38:48 2015: CONNECT: Client connecting on port 8080 (class main): Duelist_Bot!Duelist_Bot@127.0.0.1 (127.0.0.1) [Duelist_Bot]
+Tue Oct 27 11:46:13 2015: QUIT: Client exiting: Duelist_Bot!Duelist_Bot@127.0.0.1 (127.0.0.1) [Quit: User unloaded page.]
+Tue Oct 27 11:46:24 2015: CONNECT: Client connecting on port 8080 (class main): Duelist_Bot!Duelist_Bot@127.0.0.1 (127.0.0.1) [Duelist_Bot]
+Tue Oct 27 11:49:56 2015: QUIT: Client exiting: Duelist_Bot!Duelist_Bot@127.0.0.1 (127.0.0.1) [Quit: User unloaded page.]
+Tue Oct 27 11:50:08 2015: CONNECT: Client connecting on port 8080 (class main): Duelist_Bot!Duelist_Bot@127.0.0.1 (127.0.0.1) [Duelist_Bot]
+Tue Oct 27 11:58:50 2015: QUIT: Client exiting: Duelist_Bot!Duelist_Bot@127.0.0.1 (127.0.0.1) [Quit: User unloaded page.]
+Tue Oct 27 11:58:59 2015: CONNECT: Client connecting on port 8080 (class main): Duelist_Bot!Duelist_Bot@127.0.0.1 (127.0.0.1) [Duelist_Bot]
+Tue Oct 27 12:00:26 2015: QUIT: Client exiting: Duelist_Bot!Duelist_Bot@127.0.0.1 (127.0.0.1) [Quit: User unloaded page.]
+Tue Oct 27 12:00:37 2015: CONNECT: Client connecting on port 8080 (class main): Duelist_Bot!Duelist_Bot@127.0.0.1 (127.0.0.1) [Duelist_Bot]
+Tue Oct 27 12:24:42 2015: QUIT: Client exiting: Duelist_Bot!Duelist_Bot@127.0.0.1 (127.0.0.1) [Quit: User unloaded page.]
+Tue Oct 27 12:33:42 2015: m_websocket: WebSocketSession::Handshake(): Client key was not provided
+Tue Oct 27 12:33:53 2015: m_websocket: WebSocketSession::Handshake(): Client key was not provided
+Tue Oct 27 12:34:04 2015: m_websocket: WebSocketSession::Handshake(): Client key was not provided
+Tue Oct 27 12:34:20 2015: m_websocket: WebSocketSession::Handshake(): Client key was not provided
+Tue Oct 27 12:35:01 2015: m_websocket: WebSocketSession::Handshake(): Client key was not provided
+Tue Oct 27 12:36:12 2015: m_websocket: WebSocketSession::Handshake(): Client key was not provided
+Tue Oct 27 15:48:23 2015: DEBUG: EH?! -- Time is jumping FORWARDS! Clock skipped 5020 secs.
+Tue Oct 27 19:07:07 2015: DEBUG: EH?! -- Time is jumping FORWARDS! Clock skipped 10399 secs.
+Tue Oct 27 19:07:10 2015: DEBUG: EH?! -- Time is jumping FORWARDS! Clock skipped 3 secs.
+Tue Oct 27 19:23:08 2015: CONNECT: Client connecting on port 8080 (class main): Duelist_Bot!Duelist_Bot@127.0.0.1 (127.0.0.1) [Duelist_Bot]
+Tue Oct 27 20:19:32 2015: QUIT: Client exiting: Duelist_Bot!Duelist_Bot@127.0.0.1 (127.0.0.1) [Quit: User unloaded page.]
+Tue Oct 27 20:19:49 2015: CONNECT: Client connecting on port 8080 (class main): Duelist_Bot!Duelist_Bot@127.0.0.1 (127.0.0.1) [Duelist_Bot]
+Tue Oct 27 21:56:00 2015: QUIT: Client exiting: Duelist_Bot!Duelist_Bot@127.0.0.1 (127.0.0.1) [Quit: User unloaded page.]
+Tue Oct 27 21:56:30 2015: CONNECT: Client connecting on port 8080 (class main): Duelist_Bot!Duelist_Bot@127.0.0.1 (127.0.0.1) [Duelist_Bot]
+Tue Oct 27 21:59:31 2015: QUIT: Client exiting: Duelist_Bot!Duelist_Bot@127.0.0.1 (127.0.0.1) [Quit: User unloaded page.]
+Tue Oct 27 21:59:45 2015: CONNECT: Client connecting on port 8080 (class main): Duelist_Bot!Duelist_Bot@127.0.0.1 (127.0.0.1) [Duelist_Bot]
+Tue Oct 27 22:05:07 2015: QUIT: Client exiting: Duelist_Bot!Duelist_Bot@127.0.0.1 (127.0.0.1) [Quit: User unloaded page.]
